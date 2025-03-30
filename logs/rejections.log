@@ -1,0 +1,247 @@
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:36:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6788,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 195555328,
+      heapTotal: 140869632,
+      heapUsed: 136524720,
+      external: 7537039,
+      arrayBuffers: 4664476
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33432.984 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:36:50'
+}
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:43:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 196300800,
+      heapTotal: 142180352,
+      heapUsed: 136741720,
+      external: 7536935,
+      arrayBuffers: 4664263
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33848.968 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:43:46'
+}
+{
+  error: HttpError: User already exists
+      at UserControllers.<anonymous> (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\src\controllers\user.controllers.ts:18:13)
+      at Generator.next (<anonymous>)
+      at fulfilled (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\src\controllers\user.controllers.ts:5:58) {
+    status: 400
+  },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n' +
+    'HttpError: User already exists\n' +
+    '    at UserControllers.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts:18:13)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts:5:58)',
+  stack: 'HttpError: User already exists\n' +
+    '    at UserControllers.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts:18:13)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts:5:58)',
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:45:07 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17152,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 231673856,
+      heapTotal: 176521216,
+      heapUsed: 142986472,
+      external: 7552079,
+      arrayBuffers: 4676824
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 33929.765 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts',
+      function: null,
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Generator.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 58,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\controllers\\user.controllers.ts',
+      function: 'fulfilled',
+      line: 5,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: 'Mar-31-2025 00:45:07'
+}
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:47:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 228126720,
+      heapTotal: 175210496,
+      heapUsed: 142674800,
+      external: 7547819,
+      arrayBuffers: 4672564
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 34066.015 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:47:23'
+}
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:49:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16956,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 232226816,
+      heapTotal: 176259072,
+      heapUsed: 142878408,
+      external: 7547891,
+      arrayBuffers: 4672636
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 34171.453 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:49:09'
+}
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:51:14 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5436,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 232013824,
+      heapTotal: 175996928,
+      heapUsed: 142829408,
+      external: 7539531,
+      arrayBuffers: 4664276
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 34296.5 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:51:14'
+}
+{
+  error: [HttpError: User already exists] { status: 400 },
+  level: 'error',
+  message: 'unhandledRejection: User already exists\n  No stack trace',
+  stack: undefined,
+  rejection: true,
+  date: 'Mon Mar 31 2025 00:58:11 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20212,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 228974592,
+      heapTotal: 175996928,
+      heapUsed: 142888520,
+      external: 7547867,
+      arrayBuffers: 4672612
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 34713.328 },
+  trace: [],
+  timestamp: 'Mar-31-2025 00:58:11'
+}
