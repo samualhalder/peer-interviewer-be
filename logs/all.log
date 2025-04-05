@@ -933,3 +933,182 @@
 2025-04-05 01:04:07:47 [32minfo[39m: [32m🛣️ Route Setup completed[39m
 2025-04-05 01:04:07:47 [32minfo[39m: [32m🚧 Error Handler Applied[39m
 2025-04-05 01:04:07:47 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-05 11:16:50:1650 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-05 11:16:50:1650 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-05 11:16:50:1650 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-05 11:17:29:1729 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:17:29:1729 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:18:52:1852 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:18:52:1852 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:19:37:1937 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:19:37:1937 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:32:54:3254 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:32:54:3254 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:33:02:332 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:33:16:3316 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:27:3427 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:27:3427 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:33:3433 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:33:3433 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:39:3439 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:39:3439 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:39:3439 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:44:3444 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:45:3445 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:34:50:3450 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:18:3518 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:18:3518 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:23:3523 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:23:3523 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:23:3523 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:43:3543 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:35:43:3543 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:13:3613 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:13:3613 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:13:3613 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:27:3627 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:27:3627 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:36:27:3627 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:37:04:374 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:37:04:374 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:08:388 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:08:388 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:44:3844 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:44:3844 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:54:3854 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:54:3854 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:54:3854 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:54:3854 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:54:3854 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:59:3859 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:59:3859 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:38:59:3859 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:40:19:4019 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:40:19:4019 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:40:19:4019 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:21:4221 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:25:4225 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:34:4234 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:34:4234 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:38:4238 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:38:4238 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:42:38:4238 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:45:47:4547 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:46:55:4655 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:46:59:4659 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:46:59:4659 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:46:59:4659 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:47:02:472 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:47:02:472 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:47:02:472 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:48:20:4820 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 11:48:20:4820 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 12:09:12:912 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 12:09:12:912 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 23:37:57:3757 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-05 23:37:57:3757 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-05 23:37:57:3757 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-05 23:38:25:3825 [31merror[39m: [31mjwt must be provided[39m
+2025-04-05 23:38:25:3825 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:21:06:216 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:21:06:216 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:21:06:216 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:21:06:216 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:21:06:216 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:24:06:246 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:25:07:257 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:25:07:257 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:25:07:257 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:35:34:3534 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:35:34:3534 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:35:34:3534 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:41:19:4119 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:41:19:4119 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:41:19:4119 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:49:58:4958 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:49:59:4959 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:49:59:4959 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 00:51:42:5142 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:51:42:5142 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:51:42:5142 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:52:05:525 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:52:05:525 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:52:05:525 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:52:11:5211 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:52:11:5211 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:52:11:5211 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:52:41:5241 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:52:41:5241 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:52:41:5241 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:52:54:5254 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:52:54:5254 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:52:54:5254 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:53:00:530 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:53:00:530 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:53:00:530 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:54:09:549 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:54:09:549 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:54:09:549 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:54:16:5416 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:54:16:5416 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:54:16:5416 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:55:01:551 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:55:01:551 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:55:01:551 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:55:11:5511 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:55:11:5511 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:55:11:5511 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:56:02:562 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:56:02:562 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:56:02:562 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:56:59:5659 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:56:59:5659 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:56:59:5659 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:57:33:5733 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:57:33:5733 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:57:33:5733 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:57:39:5739 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:57:39:5739 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:57:39:5739 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:57:41:5741 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:57:41:5741 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:57:41:5741 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:57:55:5755 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:57:55:5755 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:57:55:5755 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 00:58:36:5836 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 00:58:36:5836 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 00:58:36:5836 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:02:26:226 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:02:26:226 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:02:26:226 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:04:31:431 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:04:31:431 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:04:31:431 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:21:09:219 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:21:09:219 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:21:09:219 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:22:22:2222 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:22:22:2222 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:22:22:2222 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:22:25:2225 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:22:25:2225 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:22:25:2225 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:22:34:2234 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:22:34:2234 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:22:34:2234 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:25:14:2514 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-04-06 01:25:14:2514 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-04-06 01:25:14:2514 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-04-06 01:29:16:2916 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:16:2916 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:48:2948 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:48:2948 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:48:2948 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:48:2948 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:29:48:2948 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:30:53:3053 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:30:53:3053 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:30:53:3053 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:30:53:3053 [31merror[39m: [31mjwt must be provided[39m
+2025-04-06 01:30:53:3053 [31merror[39m: [31mjwt must be provided[39m

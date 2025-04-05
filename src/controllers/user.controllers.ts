@@ -7,7 +7,7 @@ import { generateAccessToken } from "../helpers/token.helper";
 import { UserType } from "../types";
 import jwt from "jsonwebtoken";
 
-class UserControllers {
+class UserControllerClass {
   signUp = async (req: Request, res: Response) => {
     const { email, password, name } = req.body;
     const user = await prisma.user.findUnique({
@@ -57,6 +57,81 @@ class UserControllers {
       .message("Sign in successfull"!)
       .send();
   };
+
+  OAuthFuntion = async (req: Request, res: Response) => {
+    const { email, name, image } = req.body;
+    const findUser = await prisma.user.findUnique({
+      where: {
+        email: email,
+      },
+    });
+    if (findUser) {
+      const accessToken = generateAccessToken(
+        findUser.id,
+        findUser.email,
+        findUser.name
+      );
+      ResponseWrapper(res)
+        .status(200)
+        .body(accessToken)
+        .message("Login Successfull")
+        .send();
+    } else {
+      const Randompassword = Math.random().toString(36).slice(-8);
+      const hasdedPassword = await bcrypt.hash(Randompassword, 10);
+      const user = await prisma.user.create({
+        data: {
+          email: email,
+          password: hasdedPassword,
+          name: name,
+          image: image,
+        },
+      });
+      const accessToken = generateAccessToken(user.id, user.email, user.name);
+      ResponseWrapper(res)
+        .status(200)
+        .body(accessToken)
+        .message("Signup Successfull")
+        .send();
+    }
+  };
+  googelAuth = async (req: Request, res: Response) => {
+    const { email, name, image } = req.body;
+    const findUser = await prisma.user.findUnique({
+      where: {
+        email: email,
+      },
+    });
+    if (findUser) {
+      const accessToken = generateAccessToken(
+        findUser.id,
+        findUser.email,
+        findUser.name
+      );
+      return ResponseWrapper(res)
+        .status(200)
+        .body(accessToken)
+        .message("Login Successfull")
+        .send();
+    } else {
+      const Randompassword = Math.random().toString(36).slice(-8);
+      const hasdedPassword = bcrypt.hashSync(Randompassword, 10);
+      const user = await prisma.user.create({
+        data: {
+          email: email,
+          password: hasdedPassword,
+          name: name,
+          image: image,
+        },
+      });
+      const accessToken = generateAccessToken(user.id, user.email, user.name);
+      return ResponseWrapper(res)
+        .status(200)
+        .body(accessToken)
+        .message("Signup Successfull")
+        .send();
+    }
+  };
   checkValidJWT = async (req: Request, res: Response) => {
     const decoded = jwt.verify(
       req.body.token,
@@ -76,4 +151,4 @@ class UserControllers {
   };
 }
 
-export default new UserControllers();
+export const UserControllers = new UserControllerClass();
