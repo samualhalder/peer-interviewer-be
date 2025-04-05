@@ -5,6 +5,7 @@ import ResponseWrapper from "../helpers/response.helper";
 import bcrypt from "bcryptjs";
 import { generateAccessToken } from "../helpers/token.helper";
 import { UserType } from "../types";
+import jwt from "jsonwebtoken";
 
 class UserControllers {
   signUp = async (req: Request, res: Response) => {
@@ -55,6 +56,23 @@ class UserControllers {
       .body(accessToken)
       .message("Sign in successfull"!)
       .send();
+  };
+  checkValidJWT = async (req: Request, res: Response) => {
+    const decoded = jwt.verify(
+      req.body.token,
+      process.env.JWT_SECRET as string
+    ) as UserType;
+    const user = (await prisma.user.findUnique({
+      where: {
+        email: decoded.email as string,
+      },
+    })) as UserType;
+
+    if (!user || decoded.id !== user.id) {
+      throw new HttpError(401, "Unauthorized: Invalid Token");
+    }
+
+    ResponseWrapper(res).status(200).send();
   };
 }
 

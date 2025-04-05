@@ -5,12 +5,14 @@ import express, {
   ErrorRequestHandler,
 } from "express";
 import morgan from "morgan";
+import cors from "cors";
 import UserRouter from "../routes/user.route";
 
 import errorhandlerMiddleware from "../middlewares/errorhandler.middleware";
 import loggerHelper from "../helpers/logger.helper";
 export default (app: Application) => {
   app.use(express.json());
+  app.use(cors());
   app.use(morgan("tiny"));
   app.use("/api/auth", UserRouter);
   app.use(errorhandlerMiddleware);
