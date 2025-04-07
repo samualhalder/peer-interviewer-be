@@ -10,6 +10,8 @@ import jwt from "jsonwebtoken";
 class UserControllerClass {
   signUp = async (req: Request, res: Response) => {
     const { email, password, name } = req.body;
+    console.log(email, password, name);
+
     const user = await prisma.user.findUnique({
       where: {
         email: email,
@@ -148,6 +150,9 @@ class UserControllerClass {
     }
 
     ResponseWrapper(res).status(200).send();
+  };
+  getUserByToken = async (req: Request, res: Response) => {
+    ResponseWrapper(res).status(200).body(req.user).send();
   };
 }
 
