@@ -1,13 +1,13 @@
 export interface UserType {
-  id: String;
-  name: String;
-  email: String;
-  role: String;
-  password: String;
-  description?: String;
-  image?: String;
-  organization?: String;
-  location?: String;
-  isAccountDeleted?: Boolean;
+  id: string;
+  name: string;
+  email: string;
+  role: string;
+  password: string;
+  description?: string;
+  image?: string;
+  organization?: string;
+  location?: string;
+  isAccountDeleted?: boolean;
   createdAt?: Date;
 }

@@ -24,7 +24,7 @@ const Auth = async (req: Request, res: Response, next: NextFunction) => {
     const decoded = jwt.verify(token, JWT_SECRET as string) as UserType;
     const user = (await prisma.user.findUnique({
       where: {
-        email: decoded.email as string,
+        email: decoded.email,
       },
     })) as UserType;
 

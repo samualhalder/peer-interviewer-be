@@ -154,6 +154,25 @@ class UserControllerClass {
   getUserByToken = async (req: Request, res: Response) => {
     ResponseWrapper(res).status(200).body(req.user).send();
   };
+  update = async (req: Request, res: Response) => {
+    const { name, location, description, image, skills } = req.body;
+    const updatedUser = await prisma.user.update({
+      where: {
+        id: req.user?.id,
+      },
+      data: {
+        name: name,
+        location: location,
+        image: image,
+        skills: skills,
+      },
+    });
+    ResponseWrapper(res)
+      .status(200)
+      .body(updatedUser)
+      .message("User Updated Successfully")
+      .send();
+  };
 }
 
 export const UserControllers = new UserControllerClass();

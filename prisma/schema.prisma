@@ -24,6 +24,8 @@ model User {
     image            String?
     organization     String?
     location         String?
+    skills           String?
+    resume           String?
     isAccountDeleted Boolean  @default(false)
     createdAt        DateTime @default(now())
 }
