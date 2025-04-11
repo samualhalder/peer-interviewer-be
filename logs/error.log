@@ -862,3 +862,37 @@
 2025-04-10 11:49:47:4947 [31merror[39m: [31mUnauthorized[39m
 2025-04-10 11:49:47:4947 [31merror[39m: [31mUnauthorized[39m
 2025-04-10 11:49:47:4947 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:47:35:4735 [31merror[39m: [31mjwt expired[39m
+2025-04-11 23:47:35:4735 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:47:35:4735 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:47:37:4737 [31merror[39m: [31mjwt must be provided[39m
+2025-04-11 23:47:37:4737 [31merror[39m: [31mjwt must be provided[39m
+2025-04-11 23:49:07:497 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:07:497 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:08:498 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:08:498 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-11 23:49:21:4921 [31merror[39m: [31mUnauthorized[39m
+2025-04-12 00:53:21:5321 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 00:53:21:5321 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 00:53:21:5321 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 00:53:21:5321 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 00:53:21:5321 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 01:02:03:23 [31merror[39m: [31mIncurrect current password[39m
+2025-04-12 01:02:14:214 [31merror[39m: [31mIncurrect current password[39m
+2025-04-12 01:08:10:810 [31merror[39m: [31mjwt malformed[39m
+2025-04-12 01:08:10:810 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 01:08:10:810 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 01:08:47:847 [31merror[39m: [31mWrong credentials[39m
+2025-04-12 01:08:53:853 [31merror[39m: [31mNo Such User[39m
+2025-04-12 01:09:21:921 [31merror[39m: [31mIncurrect current password[39m
+2025-04-12 01:09:22:922 [31merror[39m: [31mIncurrect current password[39m
+2025-04-12 01:09:43:943 [31merror[39m: [31mIncorrect current password[39m
+2025-04-12 01:09:59:959 [31merror[39m: [31mIncorrect current password[39m
+2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt malformed[39m
+2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt must be provided[39m
+2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt must be provided[39m

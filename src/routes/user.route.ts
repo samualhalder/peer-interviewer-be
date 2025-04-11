@@ -9,7 +9,8 @@ router
   .post("/signin", UserControllers.signIn)
   .post("/valid-jwt", UserControllers.checkValidJWT)
   .get("/get-user-by-token", Auth, UserControllers.getUserByToken)
-  .put("/update", Auth, UserControllers.update);
+  .put("/update", Auth, UserControllers.update)
+  .put("/reset-password", Auth, UserControllers.resetPassword);
 
 router.post("/oauth", UserControllers.OAuthFuntion);
 

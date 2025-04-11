@@ -173,6 +173,41 @@ class UserControllerClass {
       .message("User Updated Successfully")
       .send();
   };
+  resetPassword = async (req: Request, res: Response) => {
+    const { currentPassword, newPassword, confirmPassword } = req.body;
+    const user = (await prisma.user.findUnique({
+      where: {
+        id: req.user?.id,
+      },
+    })) as UserType;
+    const isPasswordMatched = await bcrypt.compare(
+      currentPassword,
+      user?.password
+    );
+    if (!isPasswordMatched) {
+      throw new HttpError(400, "Incorrect current password");
+    }
+    if (newPassword !== confirmPassword) {
+      throw new HttpError(
+        400,
+        "New Password and connfirm password should match"
+      );
+    }
+    const hashedPassword = await bcrypt.hash(newPassword, 10);
+
+    await prisma.user.update({
+      where: {
+        id: req.user?.id,
+      },
+      data: {
+        password: hashedPassword,
+      },
+    });
+    ResponseWrapper(res)
+      .status(200)
+      .message("Password changed successfully")
+      .send();
+  };
 }
 
 export const UserControllers = new UserControllerClass();
