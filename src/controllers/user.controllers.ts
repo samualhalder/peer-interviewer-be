@@ -155,7 +155,8 @@ class UserControllerClass {
     ResponseWrapper(res).status(200).body(req.user).send();
   };
   update = async (req: Request, res: Response) => {
-    const { name, location, description, image, skills } = req.body;
+    const { name, location, organization, description, image, skills } =
+      req.body;
     const updatedUser = await prisma.user.update({
       where: {
         id: req.user?.id,
@@ -165,6 +166,7 @@ class UserControllerClass {
         location: location,
         image: image,
         skills: skills,
+        organization: organization,
       },
     });
     ResponseWrapper(res)
