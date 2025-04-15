@@ -10,7 +10,8 @@ router
   .post("/valid-jwt", UserControllers.checkValidJWT)
   .get("/get-user-by-token", Auth, UserControllers.getUserByToken)
   .put("/update", Auth, UserControllers.update)
-  .put("/reset-password", Auth, UserControllers.resetPassword);
+  .put("/reset-password", Auth, UserControllers.resetPassword)
+  .get("/get-users", Auth, UserControllers.getUser);
 
 router.post("/oauth", UserControllers.OAuthFuntion);
 
