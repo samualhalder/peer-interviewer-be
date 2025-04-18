@@ -896,3 +896,80 @@
 2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt malformed[39m
 2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt must be provided[39m
 2025-04-12 01:10:59:1059 [31merror[39m: [31mjwt must be provided[39m
+2025-04-15 00:24:38:2438 [31merror[39m: [31mjwt expired[39m
+2025-04-15 00:24:38:2438 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:39:2439 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:43:2443 [31merror[39m: [31mjwt expired[39m
+2025-04-15 00:24:43:2443 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:43:2443 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:43:2443 [31merror[39m: [31mjwt must be provided[39m
+2025-04-15 00:24:43:2443 [31merror[39m: [31mjwt must be provided[39m
+2025-04-15 00:24:55:2455 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:55:2455 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:55:2455 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:24:55:2455 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-15 00:25:04:254 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:10:3610 [31merror[39m: [31mjwt expired[39m
+2025-04-16 00:36:10:3610 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:10:3610 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:12:3612 [31merror[39m: [31mjwt must be provided[39m
+2025-04-16 00:36:12:3612 [31merror[39m: [31mjwt must be provided[39m
+2025-04-16 00:36:57:3657 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:57:3657 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:57:3657 [31merror[39m: [31mUnauthorized[39m
+2025-04-16 00:36:57:3657 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:11:3511 [31merror[39m: [31mjwt expired[39m
+2025-04-17 23:35:11:3511 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:11:3511 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:14:3514 [31merror[39m: [31mjwt must be provided[39m
+2025-04-17 23:35:14:3514 [31merror[39m: [31mjwt must be provided[39m
+2025-04-17 23:35:26:3526 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:26:3526 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:26:3526 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:26:3526 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:35:32:3532 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:54:47:5447 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:06:556 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:19:5519 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:20:5520 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:29:5529 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:31:5531 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:37:5537 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:46:5546 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:47:5547 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:55:57:5557 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:56:12:5612 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:56:28:5628 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:56:31:5631 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:56:59:5659 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:57:12:5712 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:57:47:5747 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:57:50:5750 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:58:06:586 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:58:34:5834 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:58:44:5844 [31merror[39m: [31mUnauthorized[39m
+2025-04-17 23:59:44:5944 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:00:10:010 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:00:40:040 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:01:00:10 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:03:06:36 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:03:42:342 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:07:02:72 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:08:10:810 [31merror[39m: [31mNo Such User[39m
+2025-04-18 00:09:51:951 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:16:06:166 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:16:20:1620 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:16:33:1633 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:16:46:1646 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:17:13:1713 [31merror[39m: [31mUnauthorized[39m
+2025-04-18 00:17:40:1740 [31merror[39m: [31mUnauthorized[39m

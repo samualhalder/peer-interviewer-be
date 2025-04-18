@@ -244,6 +244,17 @@ class UserControllerClass {
     });
     ResponseWrapper(res).status(200).body(data).send();
   };
+  getUserById = async (req: Request, res: Response) => {
+    console.log("hit getuserbyid");
+
+    const { id } = req.params;
+    const user = await prisma.user.findUnique({
+      where: {
+        id: id,
+      },
+    });
+    ResponseWrapper(res).status(200).body(user).send();
+  };
 }
 
 export const UserControllers = new UserControllerClass();
