@@ -973,3 +973,12 @@
 2025-04-18 00:16:46:1646 [31merror[39m: [31mUnauthorized[39m
 2025-04-18 00:17:13:1713 [31merror[39m: [31mUnauthorized[39m
 2025-04-18 00:17:40:1740 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:34:034 [31merror[39m: [31mjwt expired[39m
+2025-04-19 00:00:34:034 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:34:034 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:35:035 [31merror[39m: [31mjwt must be provided[39m
+2025-04-19 00:00:35:035 [31merror[39m: [31mjwt must be provided[39m
+2025-04-19 00:00:47:047 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:47:047 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:47:047 [31merror[39m: [31mUnauthorized[39m
+2025-04-19 00:00:47:047 [31merror[39m: [31mUnauthorized[39m

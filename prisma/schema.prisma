@@ -15,10 +15,10 @@ datasource db {
 
 // USER SCHEMA
 model User {
-    id               String   @id @default(uuid())
+    id               String     @id @default(uuid())
     name             String
-    email            String   @unique
-    role             String   @default("user")
+    email            String     @unique
+    role             String     @default("user")
     password         String
     description      String?
     image            String?
@@ -26,6 +26,20 @@ model User {
     location         String?
     skills           String?
     resume           String?
-    isAccountDeleted Boolean  @default(false)
-    createdAt        DateTime @default(now())
+    noOfFollowers    Int        @default(0)
+    totalFollowed    Int        @default(0)
+    isAccountDeleted Boolean    @default(false)
+    createdAt        DateTime   @default(now())
+    followers        Follower[] @relation("UserFollowing")
+    followed         Follower[] @relation("UserFollowed")
+}
+
+// FOLLOW SCHEMA
+
+model Follower {
+    id         String @id @default(uuid())
+    userId     String
+    followerId String
+    followed   User   @relation("UserFollowed", fields: [userId], references: [id])
+    follower   User   @relation("UserFollowing", fields: [followerId], references: [id])
 }

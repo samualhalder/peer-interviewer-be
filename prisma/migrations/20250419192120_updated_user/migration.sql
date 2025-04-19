@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "noOfFollowers" INTEGER NOT NULL DEFAULT 0,
+ADD COLUMN     "totalFollowed" INTEGER NOT NULL DEFAULT 0;

@@ -7,6 +7,7 @@ import express, {
 import morgan from "morgan";
 import cors from "cors";
 import UserRouter from "../routes/user.route";
+import FollowerRouter from "../routes/followers.route";
 
 import errorhandlerMiddleware from "../middlewares/errorhandler.middleware";
 import loggerHelper from "../helpers/logger.helper";
@@ -15,6 +16,7 @@ export default (app: Application) => {
   app.use(cors());
   app.use(morgan("tiny"));
   app.use("/api/auth", UserRouter);
+  app.use("/api/followers", FollowerRouter);
   app.use(errorhandlerMiddleware);
   app.use("*", (req: Request, res: Response) => {
     res
