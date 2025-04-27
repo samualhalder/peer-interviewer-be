@@ -50,6 +50,8 @@ model InterviewRequests {
     id        String   @id @default(uuid())
     from      String
     to        String
+    status    Boolean  @default(false)
+    seen      Boolean  @default(false)
     createdAt DateTime @default(now())
     fromuser  User     @relation("userSent", fields: [from], references: [id])
     touser    User     @relation("userRecived", fields: [to], references: [id])

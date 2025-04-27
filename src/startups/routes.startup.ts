@@ -23,7 +23,7 @@ export default (app: Application) => {
   app.use(errorhandlerMiddleware);
   app.use("*", (req: Request, res: Response) => {
     res
-      .send({ error: true, message: "Route Not Fould", result: null })
+      .send({ error: true, message: "Route Not Found", result: null })
       .status(404);
   });
 };

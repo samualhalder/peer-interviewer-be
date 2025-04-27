@@ -7,6 +7,10 @@ const router = express.Router();
 router
   .post("/sent", Auth, InterviewRequestControllers.sent)
   .post("/unsend", Auth, InterviewRequestControllers.unsent)
-  .get("/issend/:id", Auth, InterviewRequestControllers.issent);
+  .get("/issend/:id", Auth, InterviewRequestControllers.issent)
+  .get("/list", Auth, InterviewRequestControllers.list)
+  .get("/list-sent", Auth, InterviewRequestControllers.listSend)
+  .put("/accept/:id", Auth, InterviewRequestControllers.accpet)
+  .put("/reject/:id", Auth, InterviewRequestControllers.reject);
 
 export default router;
