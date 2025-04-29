@@ -10,6 +10,7 @@ router
   .get("/issend/:id", Auth, InterviewRequestControllers.issent)
   .get("/list", Auth, InterviewRequestControllers.list)
   .get("/list-sent", Auth, InterviewRequestControllers.listSend)
+  .get("/is-new-requests", Auth, InterviewRequestControllers.haveNewRequest)
   .put("/accept/:id", Auth, InterviewRequestControllers.accpet)
   .put("/reject/:id", Auth, InterviewRequestControllers.reject);
 

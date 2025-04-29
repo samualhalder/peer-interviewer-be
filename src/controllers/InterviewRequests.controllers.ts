@@ -142,6 +142,16 @@ class InterviewRequestControllerClass {
     const result = await prisma.interviewRequests.findMany(queryObj);
     ResponseWrapper(res).status(200).body(result).send();
   };
+  haveNewRequest = async (req: Request, res: Response) => {
+    const id = req.user?.id as string;
+    const newRequests = await prisma.interviewRequests.count({
+      where: {
+        to: id,
+        status: false,
+      },
+    });
+    ResponseWrapper(res).status(200).body(newRequests).send();
+  };
 }
 export const InterviewRequestControllers =
   new InterviewRequestControllerClass();

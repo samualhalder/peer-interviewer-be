@@ -214,29 +214,38 @@ class UserControllerClass {
     const { slug } = req.query;
     const data = await prisma.user.findMany({
       where: {
-        OR: [
+        AND: [
           {
-            name: {
-              contains: slug as string,
-              mode: "insensitive",
-            },
+            OR: [
+              {
+                name: {
+                  contains: slug as string,
+                  mode: "insensitive",
+                },
+              },
+              {
+                organization: {
+                  contains: slug as string,
+                  mode: "insensitive",
+                },
+              },
+              {
+                skills: {
+                  contains: slug as string,
+                  mode: "insensitive",
+                },
+              },
+              {
+                location: {
+                  contains: slug as string,
+                  mode: "insensitive",
+                },
+              },
+            ],
           },
           {
-            organization: {
-              contains: slug as string,
-              mode: "insensitive",
-            },
-          },
-          {
-            skills: {
-              contains: slug as string,
-              mode: "insensitive",
-            },
-          },
-          {
-            location: {
-              contains: slug as string,
-              mode: "insensitive",
+            id: {
+              not: req?.user?.id as string,
             },
           },
         ],
