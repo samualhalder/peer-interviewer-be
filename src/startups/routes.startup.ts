@@ -8,6 +8,7 @@ import morgan from "morgan";
 import cors from "cors";
 import UserRouter from "../routes/user.route";
 import FollowerRouter from "../routes/followers.route";
+import ChatRouter from "../routes/chat.routes";
 
 import InterviewRequestRouter from "../routes/interviewRequest.route";
 
@@ -20,6 +21,7 @@ export default (app: Application) => {
   app.use("/api/auth", UserRouter);
   app.use("/api/followers", FollowerRouter);
   app.use("/api/interview-requests", InterviewRequestRouter);
+  app.use("/api/chats", ChatRouter);
   app.use(errorhandlerMiddleware);
   app.use("*", (req: Request, res: Response) => {
     res

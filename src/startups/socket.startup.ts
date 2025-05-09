@@ -1,16 +1,31 @@
-import { Server } from "socket.io";
-import { Server as HttpServer } from "http";
+import { Server, Socket } from "socket.io";
 import loggerHelper from "../helpers/logger.helper";
 
-export default (server: HttpServer) => {
-  const io = new Server(server, {
+let io: Server | null = null;
+
+export const initializeSocket = async (server: any): Promise<void> => {
+  io = new Server(server, {
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
     },
   });
-  io.on("connection", (socket) => {
-    console.log("new user is connected", socket.id);
+
+  io.on("connection", (socket: Socket) => {
+    console.log(`A user connected: ${socket.id}`);
+
+    socket.emit("get-socketId", { socketId: socket.id });
+
+    socket.on("disconnect", (reason: string) => {
+      console.log("disconnect due to ", reason);
+    });
   });
-  loggerHelper.info("⚡ Socket Connected successsfully");
+  loggerHelper.info("⚡ Socket connected successfully");
+};
+
+export const getIo = (): Server => {
+  if (!io) {
+    throw new Error("⚡ Socket.io not initialized");
+  }
+  return io;
 };
