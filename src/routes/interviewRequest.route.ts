@@ -11,6 +11,8 @@ router
   .get("/list", Auth, InterviewRequestControllers.list)
   .get("/list-sent", Auth, InterviewRequestControllers.listSend)
   .get("/is-new-requests", Auth, InterviewRequestControllers.haveNewRequest)
+  .get("/is-accepted/:to", Auth, InterviewRequestControllers.isAccepted)
+  .get("/can-chat/:to", Auth, InterviewRequestControllers.canChat)
   .put("/accept/:id", Auth, InterviewRequestControllers.accpet)
   .put("/reject/:id", Auth, InterviewRequestControllers.reject);
 

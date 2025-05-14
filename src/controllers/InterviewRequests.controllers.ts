@@ -152,6 +152,43 @@ class InterviewRequestControllerClass {
     });
     ResponseWrapper(res).status(200).body(newRequests).send();
   };
+  isAccepted = async (req: Request, res: Response) => {
+    const { to } = req.params;
+    const userId = req.user?.id as string;
+    const findAcceptedRequest = await prisma.interviewRequests.findMany({
+      where: {
+        from: to,
+        to: userId,
+        status: true,
+      },
+    });
+
+    ResponseWrapper(res).status(200).body(findAcceptedRequest).send();
+  };
+  canChat = async (req: Request, res: Response) => {
+    const { to } = req.params;
+    const userId = req.user?.id as string;
+    const findAcceptedRequest1 = await prisma.interviewRequests.findMany({
+      where: {
+        from: to,
+        to: userId,
+        status: true,
+      },
+    });
+    const findAcceptedRequest2 = await prisma.interviewRequests.findMany({
+      where: {
+        from: userId,
+        to: to,
+        status: true,
+      },
+    });
+    console.log("hit", findAcceptedRequest1, findAcceptedRequest2);
+    if (findAcceptedRequest1.length || findAcceptedRequest2.length) {
+      ResponseWrapper(res).status(200).body(true).send();
+    } else {
+      ResponseWrapper(res).status(200).body(false).send();
+    }
+  };
 }
 export const InterviewRequestControllers =
   new InterviewRequestControllerClass();

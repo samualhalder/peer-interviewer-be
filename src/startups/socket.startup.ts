@@ -15,9 +15,7 @@ export const initializeSocket = async (server: any): Promise<void> => {
     console.log(`A user connected: ${socket.id}`);
     socket.on("message", (data) => {
       io?.emit(`${data.chatId}`, data);
-      console.log("emit succesfull");
     });
-    socket.emit("get-socketId", socket.id);
 
     socket.on("disconnect", (reason: string) => {
       console.log("disconnect due to ", reason);
