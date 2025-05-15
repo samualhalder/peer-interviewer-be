@@ -13,8 +13,20 @@ export const initializeSocket = async (server: any): Promise<void> => {
 
   io.on("connection", (socket: Socket) => {
     console.log(`A user connected: ${socket.id}`);
+    socket.on("join-room", (data) => {
+      socket.join(data.chatId);
+      console.log("joined-room", socket.id, data.chatId);
+    });
     socket.on("message", (data) => {
-      io?.emit(`${data.chatId}`, data);
+      io?.to(data.chatId).emit(`${data.chatId}`, data);
+    });
+    socket.on("start-interview", (data) => {
+      console.log("sit", data);
+
+      socket.broadcast.emit("interview-start-request", { room: data.room });
+    });
+    socket.on("request-declined", (data) => {
+      socket.broadcast.emit(`declined-${data.room}`, { room: data.room });
     });
 
     socket.on("disconnect", (reason: string) => {
