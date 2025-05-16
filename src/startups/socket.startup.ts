@@ -23,10 +23,19 @@ export const initializeSocket = async (server: any): Promise<void> => {
     socket.on("start-interview", (data) => {
       console.log("sit", data);
 
-      socket.broadcast.emit("interview-start-request", { room: data.room });
+      socket.broadcast.emit("interview-start-request", {
+        room: data.room,
+        offer: data.offer,
+      });
     });
     socket.on("request-declined", (data) => {
       socket.broadcast.emit(`declined-${data.room}`, { room: data.room });
+    });
+    socket.on("call-accepted", (data) => {
+      socket.broadcast.emit(`call-accepted-${data.room}`, {
+        room: data.room,
+        answer: data.answer,
+      });
     });
 
     socket.on("disconnect", (reason: string) => {
