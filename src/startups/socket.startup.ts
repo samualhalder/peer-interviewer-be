@@ -37,6 +37,17 @@ export const initializeSocket = async (server: any): Promise<void> => {
         answer: data.answer,
       });
     });
+    socket.on("nego-needed", (data) => {
+      socket.broadcast.emit(`nego-need-${data.room}`, { offer: data.offer });
+    });
+    socket.on("nego-done", (data) => {
+      socket.broadcast.emit(`nego-done-${data.room}`, { answer: data.answer });
+    });
+    socket.on("ice-candidate", (data) => {
+      socket.broadcast.emit(`ice-candidate-${data.room}`, {
+        candidate: data.candidate,
+      });
+    });
 
     socket.on("disconnect", (reason: string) => {
       console.log("disconnect due to ", reason);
