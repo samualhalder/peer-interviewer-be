@@ -21,8 +21,9 @@ export const initializeSocket = async (server: any): Promise<void> => {
       io?.to(data.chatId).emit(`${data.chatId}`, data);
     });
     socket.on("start-interview", (data) => {
-      console.log("sit", data);
+      console.log("emited hey", data);
 
+      socket.broadcast.emit("hey");
       socket.broadcast.emit("interview-start-request", {
         room: data.room,
         offer: data.offer,
@@ -47,6 +48,21 @@ export const initializeSocket = async (server: any): Promise<void> => {
       socket.broadcast.emit(`ice-candidate-${data.room}`, {
         candidate: data.candidate,
       });
+    });
+    socket.on("screen-recording", (data) => {
+      socket
+        .to(data.room)
+        .emit(`screen-recording-${data.room}`, { videoBlob: data.videoBlob });
+    });
+    socket.on("share-screen", (data) => {
+      console.log("got share screen");
+
+      socket.broadcast.emit(`screen-${data.room}`, { room: data.room });
+    });
+    socket.on("share-video", (data) => {
+      console.log("got share screen");
+
+      socket.broadcast.emit(`video-${data.room}`, { room: data.room });
     });
 
     socket.on("disconnect", (reason: string) => {
