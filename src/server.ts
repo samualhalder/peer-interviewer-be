@@ -5,4 +5,5 @@ import index from "./startups/index";
 
 dotenv.config();
 const app = express();
+
 index(app);

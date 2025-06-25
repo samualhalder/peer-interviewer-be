@@ -21,9 +21,6 @@ export const initializeSocket = async (server: any): Promise<void> => {
       io?.to(data.chatId).emit(`${data.chatId}`, data);
     });
     socket.on("start-interview", (data) => {
-      console.log("emited hey", data);
-
-      socket.broadcast.emit("hey");
       socket.broadcast.emit("interview-start-request", {
         room: data.room,
         offer: data.offer,
