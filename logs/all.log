@@ -22616,3 +22616,266 @@
 2025-06-29 01:31:05:315 [32minfo[39m: [32mUser authenticated: [object Object][39m
 2025-06-29 01:31:06:316 [32minfo[39m: [32mUser authenticated: [object Object][39m
 2025-06-29 01:31:06:316 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-29 01:40:52:4052 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-29 01:40:53:4053 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-29 01:40:53:4053 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-29 01:40:53:4053 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 00:38:12:3812 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 00:38:16:3816 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 00:38:16:3816 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 00:38:16:3816 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 00:39:02:392 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:03:393 [31merror[39m: [31mjwt must be provided[39m
+2025-06-30 00:39:03:393 [31merror[39m: [31mjwt must be provided[39m
+2025-06-30 00:39:04:394 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:04:394 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:04:394 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:04:394 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:22:3922 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:39:22:3922 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:00:400 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:03:403 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:04:404 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:04:404 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:07:407 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:10:4010 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:10:4010 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:11:4011 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:12:4012 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:14:4014 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:22:4022 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:40:22:4022 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:22:4022 [31merror[39m: [31mjwt expired[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:41:4041 [31merror[39m: [31mUnauthorized[39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:44:4044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:46:4046 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:40:46:4046 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:46:4346 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:47:4347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:48:4348 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:43:48:4348 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:48:47:4847 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:48:48:4848 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:33:5033 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:34:5034 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:37:5037 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:37:5037 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:52:5052 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:50:53:5053 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:05:515 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:06:516 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:22:5122 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:23:5123 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:35:5135 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:36:5136 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:39:5139 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:51:39:5139 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:37:5237 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:38:5238 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:42:5242 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:42:5242 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:49:5249 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:52:49:5249 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:01:531 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:02:532 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:16:5316 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:17:5317 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:39:5339 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:53:39:5339 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:01:541 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:01:541 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:18:5418 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:18:5418 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:44:5444 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:44:5444 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:48:5448 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:48:5448 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:54:51:5451 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:24:5524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:25:5525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:55:26:5526 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 00:59:35:5935 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 00:59:36:5936 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 00:59:36:5936 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 00:59:36:5936 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 00:59:48:5948 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 00:59:48:5948 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 00:59:48:5948 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 00:59:48:5948 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 00:59:57:5957 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 00:59:57:5957 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 00:59:57:5957 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 00:59:57:5957 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 01:01:51:151 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 01:01:52:152 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 01:01:52:152 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 01:01:52:152 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 01:02:08:28 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 01:02:08:28 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 01:02:08:28 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 01:02:08:28 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:03:73 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:11:711 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:12:712 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:07:13:713 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-06-30 01:16:00:160 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-06-30 01:16:00:160 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-06-30 01:16:00:160 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-06-30 01:16:00:160 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m

@@ -56,9 +56,14 @@ export const initializeSocket = async (server: any): Promise<void> => {
 
       socket.broadcast.emit(`screen-${data.room}`, { room: data.room });
     });
-    socket.on("share-video", (data) => {
-      socket.broadcast.emit(`video-${data.room}`, { room: data.room });
+    socket.on("camera-permission", (data) => {
+      console.log("hit camera permission");
+
+      socket.broadcast.emit(`camera-permission-${data.roomId}`, {
+        room: data.room,
+      });
     });
+
     socket.on("sharing-screen-tracks", (data) => {
       socket.broadcast.emit(`incoming-screen-sharing-${data.roomId}`, {
         trackId: data.trackId,
