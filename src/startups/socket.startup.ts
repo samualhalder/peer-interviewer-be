@@ -57,9 +57,14 @@ export const initializeSocket = async (server: any): Promise<void> => {
       socket.broadcast.emit(`screen-${data.room}`, { room: data.room });
     });
     socket.on("camera-permission", (data) => {
-      console.log("hit camera permission");
-
       socket.broadcast.emit(`camera-permission-${data.roomId}`, {
+        room: data.room,
+      });
+    });
+    socket.on("audio-permission", (data) => {
+      console.log("hit audio permission");
+
+      socket.broadcast.emit(`audio-permission-${data.roomId}`, {
         room: data.room,
       });
     });
