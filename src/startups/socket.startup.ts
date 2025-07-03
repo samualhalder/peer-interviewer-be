@@ -74,6 +74,11 @@ export const initializeSocket = async (server: any): Promise<void> => {
         trackId: data.trackId,
       });
     });
+    socket.on("end-meeting", (data) => {
+      console.log("ending meeting", data);
+
+      socket.broadcast.emit(`end-meeting-${data}`);
+    });
 
     socket.on("disconnect", (reason: string) => {
       console.log("disconnect due to ", reason);
