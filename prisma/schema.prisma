@@ -44,7 +44,7 @@ model InterviewRequests {
     from      String
     to        String
     createdAt DateTime @default(now())
-    status    Boolean  @default(false)
+    status    String   @default("pending")
     seen      Boolean  @default(false)
     fromuser  User     @relation("userSent", fields: [from], references: [id])
     touser    User     @relation("userRecived", fields: [to], references: [id])

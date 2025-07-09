@@ -88,7 +88,7 @@ class InterviewRequestControllerClass {
       },
       data: {
         seen: true,
-        status: true,
+        status: "accepted",
       },
     });
     ResponseWrapper(res)
@@ -147,7 +147,7 @@ class InterviewRequestControllerClass {
     const newRequests = await prisma.interviewRequests.count({
       where: {
         to: id,
-        status: false,
+        status: "pending",
       },
     });
     ResponseWrapper(res).status(200).body(newRequests).send();
@@ -159,7 +159,7 @@ class InterviewRequestControllerClass {
       where: {
         from: to,
         to: userId,
-        status: true,
+        status: "accepted",
       },
     });
 
@@ -172,7 +172,7 @@ class InterviewRequestControllerClass {
       where: {
         from: to,
         to: userId,
-        status: true,
+        status: "accepted",
       },
     });
     const findAcceptedRequest2 = await prisma.interviewRequests.findMany({
@@ -188,6 +188,38 @@ class InterviewRequestControllerClass {
     } else {
       ResponseWrapper(res).status(200).body(false).send();
     }
+  };
+  interviewStatsbyId = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    console.log("id", id);
+
+    const intGiven = await prisma.interviewRequests.findMany({
+      where: {
+        from: id,
+        status: "completed",
+      },
+    });
+    const intTaken = await prisma.interviewRequests.findMany({
+      where: {
+        to: id,
+        status: "completed",
+      },
+    });
+    const upcommings = await prisma.interviewRequests.findMany({
+      where: {
+        from: id,
+        status: "pending",
+      },
+    });
+    ResponseWrapper(res)
+      .status(200)
+      .body({
+        intGiven: intGiven.length,
+        intTaken: intTaken.length,
+        upcommings: upcommings.length,
+        canceled: 0,
+      })
+      .send();
   };
 }
 export const InterviewRequestControllers =

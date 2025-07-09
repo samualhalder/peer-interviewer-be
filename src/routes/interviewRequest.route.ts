@@ -13,6 +13,7 @@ router
   .get("/is-new-requests", Auth, InterviewRequestControllers.haveNewRequest)
   .get("/is-accepted/:to", Auth, InterviewRequestControllers.isAccepted)
   .get("/can-chat/:to", Auth, InterviewRequestControllers.canChat)
+  .get("/int-stats/:id", Auth, InterviewRequestControllers.interviewStatsbyId)
   .put("/accept/:id", Auth, InterviewRequestControllers.accpet)
   .put("/reject/:id", Auth, InterviewRequestControllers.reject);
 
