@@ -27763,3 +27763,395 @@
 2025-07-09 20:11:36:1136 [32minfo[39m: [32mUser authenticated: [object Object][39m
 2025-07-09 20:11:36:1136 [32minfo[39m: [32mUser authenticated: [object Object][39m
 2025-07-09 20:11:36:1136 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:50:42:5042 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-10 19:50:44:5044 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-10 19:50:44:5044 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-10 19:50:46:5046 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:11:5311 [31merror[39m: [31mUnauthorized[39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:49:5349 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:53:5353 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:53:57:5357 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:02:542 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:11:5411 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:20:5420 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:54:22:5422 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 19:58:05:585 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-10 19:58:05:585 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-10 19:58:05:585 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-10 19:58:05:585 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-10 19:58:17:5817 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-10 19:58:17:5817 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-10 19:58:17:5817 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-10 19:58:17:5817 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-10 20:00:05:05 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-10 20:00:05:05 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-10 20:00:05:05 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-10 20:00:05:05 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-10 20:00:43:043 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-10 20:00:43:043 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-10 20:00:43:043 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-10 20:00:43:043 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-10 20:00:47:047 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:47:047 [31merror[39m: [31mAldeay have sent a request[39m
+2025-07-10 20:00:49:049 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:53:053 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:54:054 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:55:055 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:56:056 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:57:057 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:57:057 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-10 20:00:58:058 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:42:30:4230 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 10:42:31:4231 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 10:42:31:4231 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 10:42:31:4231 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 10:43:33:4333 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 10:43:36:4336 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:07:07 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:07:07 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:08:08 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:08:08 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:09:09 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:16:016 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:16:016 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:17:017 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:17:017 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:17:017 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:17:017 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:00:17:017 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:02:46:246 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:02:46:246 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:02:46:246 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:02:47:247 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:16:51:1651 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:16:51:1651 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:16:51:1651 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:16:53:1653 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:16:58:1658 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:16:58:1658 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:16:58:1658 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:16:58:1658 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:19:46:1946 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:19:46:1946 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:19:46:1946 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:19:46:1946 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:20:44:2044 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:20:44:2044 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:20:44:2044 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:20:44:2044 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:20:58:2058 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:20:58:2058 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:20:58:2058 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:20:58:2058 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:21:16:2116 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:21:24:2124 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:21:24:2124 [31merror[39m: [31mAlready have sent a request[39m
+2025-07-11 11:21:36:2136 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:21:42:2142 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:21:42:2142 [31merror[39m: [31mAlready have sent a request[39m
+2025-07-11 11:22:05:225 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:22:06:226 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:22:06:226 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:22:06:226 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:22:11:2211 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:11:2211 [31merror[39m: [31mAlready have sent a request[39m
+2025-07-11 11:22:24:2224 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:22:25:2225 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:22:25:2225 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:22:25:2225 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:34:2234 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:22:39:2239 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:23:31:2331 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:23:37:2337 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:23:47:2347 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:23:50:2350 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:24:23:2423 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:24:23:2423 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:24:23:2423 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:24:23:2423 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:24:31:2431 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:24:32:2432 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:24:32:2432 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:24:32:2432 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:25:10:2510 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:10:2510 [31merror[39m: [31mjwt must be provided[39m
+2025-07-11 11:25:10:2510 [31merror[39m: [31mjwt must be provided[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:16:2516 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:20:2520 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:20:2520 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:21:2521 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:21:2521 [31merror[39m: [31mUnauthorized[39m
+2025-07-11 11:25:24:2524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:24:2524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:24:2524 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:25:2525 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:28:2528 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:30:2530 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:30:2530 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:32:2532 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:33:2533 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:33:2533 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:34:2534 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:34:2534 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:34:2534 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:35:2535 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:25:37:2537 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:20:2620 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:25:2625 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:29:2629 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:33:2633 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:33:2633 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:26:34:2634 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:31:45:3145 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:31:45:3145 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:31:45:3145 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:31:45:3145 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:32:16:3216 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:32:22:3222 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:40:17:4017 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:40:17:4017 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:40:17:4017 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:40:19:4019 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:40:22:4022 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:40:23:4023 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:40:30:4030 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:40:46:4046 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:40:46:4046 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:40:46:4046 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:40:46:4046 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:41:54:4154 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:41:54:4154 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:41:54:4154 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:41:54:4154 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:42:06:426 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:42:06:426 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:43:40:4340 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:43:40:4340 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:43:40:4340 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:43:40:4340 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:43:48:4348 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:43:48:4348 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:43:48:4348 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:43:48:4348 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:47:44:4744 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:47:45:4745 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:47:45:4745 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:47:45:4745 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:48:08:488 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:48:08:488 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:48:08:488 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:48:08:488 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:48:34:4834 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:48:34:4834 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:48:34:4834 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:48:34:4834 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:48:45:4845 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:48:45:4845 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:48:45:4845 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:48:45:4845 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:48:50:4850 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:50:4850 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:50:4850 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:51:4851 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:51:4851 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:51:4851 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:52:4852 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:52:4852 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:53:4853 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:54:4854 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:54:4854 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:54:4854 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:55:4855 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:55:4855 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:55:4855 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:56:4856 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:48:56:4856 [31merror[39m: [31mNo requect to unsend[39m
+2025-07-11 11:48:56:4856 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:47:4947 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:48:4948 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:49:51:4951 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:21:5021 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:50:21:5021 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:50:21:5021 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:50:21:5021 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:50:28:5028 [32minfo[39m: [32m🛣️ Route Setup completed[39m
+2025-07-11 11:50:28:5028 [32minfo[39m: [32m🚧 Error Handler Applied[39m
+2025-07-11 11:50:28:5028 [32minfo[39m: [32m⚡ Socket connected successfully[39m
+2025-07-11 11:50:28:5028 [32minfo[39m: [32m🚀 Server Started At PORT 8080[39m
+2025-07-11 11:50:43:5043 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:43:5043 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:43:5043 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:44:5044 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:48:5048 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:49:5049 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:50:5050 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:57:5057 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:50:58:5058 [32minfo[39m: [32mUser authenticated: [object Object][39m
+2025-07-11 11:51:10:5110 [32minfo[39m: [32mUser authenticated: [object Object][39m

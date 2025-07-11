@@ -39,12 +39,19 @@ model Follower {
     followed   User   @relation("UserFollowed", fields: [userId], references: [id])
 }
 
+enum Status {
+    pending
+    accepted
+    completed
+    rejected
+}
+
 model InterviewRequests {
     id        String   @id @default(uuid())
     from      String
     to        String
     createdAt DateTime @default(now())
-    status    String   @default("pending")
+    status    Status   @default(pending)
     seen      Boolean  @default(false)
     fromuser  User     @relation("userSent", fields: [from], references: [id])
     touser    User     @relation("userRecived", fields: [to], references: [id])

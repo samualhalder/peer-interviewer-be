@@ -1,11 +1,31 @@
 import { Request, Response } from "express";
 import prisma from "../startups/prisma.startup";
 import ResponseWrapper from "../helpers/response.helper";
+import HttpError from "../helpers/httpError.helper";
+import { Status } from "@prisma/client";
 
 class InterviewRequestControllerClass {
   sent = async (req: Request, res: Response) => {
     const { to } = req.body;
     const from = req.user?.id as string;
+    const findReq = await prisma.interviewRequests.findMany({
+      where: {
+        from: from,
+        to: to,
+        OR: [
+          {
+            status: "pending",
+          },
+          {
+            status: "accepted",
+          },
+        ],
+      },
+    });
+
+    if (findReq.length) {
+      throw new HttpError(400, "Already have sent a request");
+    }
     await prisma.interviewRequests.create({
       data: {
         from: from,
@@ -20,6 +40,24 @@ class InterviewRequestControllerClass {
   unsent = async (req: Request, res: Response) => {
     const { to } = req.body;
     const from = req.user?.id as string;
+    const findReq = await prisma.interviewRequests.findMany({
+      where: {
+        from: from,
+        to: to,
+        OR: [
+          {
+            status: "pending",
+          },
+          {
+            status: "accepted",
+          },
+        ],
+      },
+    });
+
+    if (findReq.length == 0) {
+      throw new HttpError(400, "No requect to unsend");
+    }
     await prisma.interviewRequests.deleteMany({
       where: {
         from: from,
@@ -38,6 +76,14 @@ class InterviewRequestControllerClass {
       where: {
         from: from,
         to: id,
+        OR: [
+          {
+            status: "pending",
+          },
+          {
+            status: "accepted",
+          },
+        ],
       },
     });
     if (findRequest.length > 0) {
@@ -50,7 +96,7 @@ class InterviewRequestControllerClass {
     const id = req.user?.id as string;
     const { status, order } = req.query;
     const queryObj: {
-      where: { to: string; status?: boolean };
+      where: { to: string; status?: Status };
       orderBy: { createdAt: "asc" | "desc" };
       include: { touser: boolean; fromuser: boolean };
     } = {
@@ -68,9 +114,9 @@ class InterviewRequestControllerClass {
 
     if (status?.length) {
       if (status == "pending") {
-        queryObj.where.status = false;
+        queryObj.where.status = "pending";
       } else if (status == "accepted") {
-        queryObj.where.status = true;
+        queryObj.where.status = "accepted";
       }
     }
     if (order == "asc") {
@@ -112,7 +158,7 @@ class InterviewRequestControllerClass {
     const id = req.user?.id as string;
     const { status, order } = req.query;
     const queryObj: {
-      where: { from: string; status?: boolean };
+      where: { from: string; status?: Status };
       orderBy: { createdAt: "asc" | "desc" };
       include: { touser: boolean; fromuser: boolean };
     } = {
@@ -130,9 +176,9 @@ class InterviewRequestControllerClass {
 
     if (status?.length) {
       if (status == "pending") {
-        queryObj.where.status = false;
+        queryObj.where.status = "pending";
       } else if (status == "accepted") {
-        queryObj.where.status = true;
+        queryObj.where.status = "accepted";
       }
     }
     if (order == "asc") {
@@ -179,7 +225,7 @@ class InterviewRequestControllerClass {
       where: {
         from: userId,
         to: to,
-        status: true,
+        status: "accepted",
       },
     });
     console.log("hit", findAcceptedRequest1, findAcceptedRequest2);
