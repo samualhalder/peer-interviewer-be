@@ -14,7 +14,9 @@ router
   .get("/is-accepted/:to", Auth, InterviewRequestControllers.isAccepted)
   .get("/can-chat/:to", Auth, InterviewRequestControllers.canChat)
   .get("/int-stats/:id", Auth, InterviewRequestControllers.interviewStatsbyId)
+  .get("/get-int-id", Auth, InterviewRequestControllers.getInterviewId)
   .put("/accept/:id", Auth, InterviewRequestControllers.accpet)
-  .put("/reject/:id", Auth, InterviewRequestControllers.reject);
+  .put("/reject/:id", Auth, InterviewRequestControllers.reject)
+  .put("/end/:id", Auth, InterviewRequestControllers.endMeeting);
 
 export default router;

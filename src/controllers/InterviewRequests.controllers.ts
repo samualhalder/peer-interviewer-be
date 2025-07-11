@@ -72,7 +72,7 @@ class InterviewRequestControllerClass {
   issent = async (req: Request, res: Response) => {
     const { id } = req.params;
     const from = req.user?.id as string;
-    const findRequest = await prisma.interviewRequests.findMany({
+    const findRequest = await prisma.interviewRequests.findFirst({
       where: {
         from: from,
         to: id,
@@ -86,10 +86,13 @@ class InterviewRequestControllerClass {
         ],
       },
     });
-    if (findRequest.length > 0) {
-      ResponseWrapper(res).status(200).body(true).send();
+    if (findRequest) {
+      ResponseWrapper(res)
+        .status(200)
+        .body({ flag: true, status: findRequest.status })
+        .send();
     } else {
-      ResponseWrapper(res).status(200).body(false).send();
+      ResponseWrapper(res).status(200).body({ flag: false, status: "" }).send();
     }
   };
   list = async (req: Request, res: Response) => {
@@ -117,6 +120,10 @@ class InterviewRequestControllerClass {
         queryObj.where.status = "pending";
       } else if (status == "accepted") {
         queryObj.where.status = "accepted";
+      } else if (status == "completed") {
+        queryObj.where.status = "completed";
+      } else if (status == "rejected") {
+        queryObj.where.status = "rejected";
       }
     }
     if (order == "asc") {
@@ -174,12 +181,14 @@ class InterviewRequestControllerClass {
       },
     };
 
-    if (status?.length) {
-      if (status == "pending") {
-        queryObj.where.status = "pending";
-      } else if (status == "accepted") {
-        queryObj.where.status = "accepted";
-      }
+    if (status == "pending") {
+      queryObj.where.status = "pending";
+    } else if (status == "accepted") {
+      queryObj.where.status = "accepted";
+    } else if (status == "completed") {
+      queryObj.where.status = "completed";
+    } else if (status == "rejected") {
+      queryObj.where.status = "rejected";
     }
     if (order == "asc") {
       queryObj.orderBy.createdAt = "asc";
@@ -266,6 +275,44 @@ class InterviewRequestControllerClass {
         canceled: 0,
       })
       .send();
+  };
+  getInterviewId = async (req: Request, res: Response) => {
+    const { from, to } = req.query;
+    const int = await prisma.interviewRequests.findFirst({
+      where: {
+        from: from as string,
+        to: to as string,
+        OR: [
+          {
+            status: "pending",
+          },
+          {
+            status: "accepted",
+          },
+        ],
+      },
+    });
+    if (!int) {
+      ResponseWrapper(res).body(null).status(200).send();
+    } else {
+      ResponseWrapper(res).body(int.id).status(200).send();
+    }
+  };
+  endMeeting = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    console.log("endind id", id);
+
+    const bod = await prisma.interviewRequests.update({
+      where: {
+        id: id,
+      },
+      data: {
+        status: "completed",
+      },
+    });
+    console.log("int bdy", bod);
+
+    ResponseWrapper(res).status(200).message("interview ended").send();
   };
 }
 export const InterviewRequestControllers =
