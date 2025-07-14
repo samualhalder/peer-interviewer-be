@@ -3387,6 +3387,7 @@
 2025-07-11 20:22:24:2224 [31merror[39m: [31mUnauthorized[39m
 2025-07-11 20:22:25:2225 [31merror[39m: [31mUnauthorized[39m
 2025-07-11 20:22:26:2226 [31merror[39m: [31mUnauthorized[39m
+<<<<<<< HEAD
 2025-07-12 20:18:36:1836 [31merror[39m: [31mUnauthorized[39m
 2025-07-12 20:18:36:1836 [31merror[39m: [31mjwt must be provided[39m
 2025-07-12 20:18:36:1836 [31merror[39m: [31mjwt must be provided[39m
@@ -3510,3 +3511,5 @@
 2025-07-14 10:34:52:3452 [31merror[39m: [31mUnauthorized[39m
 2025-07-14 10:34:56:3456 [31merror[39m: [31mUnauthorized[39m
 2025-07-14 10:34:56:3456 [31merror[39m: [31mUnauthorized[39m
+=======
+>>>>>>> 7ead46b82f8dcc5a61fad554d61b7d29578416ea
