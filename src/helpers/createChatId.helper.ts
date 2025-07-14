@@ -4,3 +4,4 @@ export const createChatId = (id1: string, id2: string): string => {
   const id: string = arr.join("-");
   return id;
 };
+

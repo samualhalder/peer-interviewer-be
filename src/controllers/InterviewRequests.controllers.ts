@@ -3,6 +3,7 @@ import prisma from "../startups/prisma.startup";
 import ResponseWrapper from "../helpers/response.helper";
 import HttpError from "../helpers/httpError.helper";
 import { Status } from "@prisma/client";
+import { SendNotificaiton } from "../helpers/sendNotification";
 
 class InterviewRequestControllerClass {
   sent = async (req: Request, res: Response) => {
@@ -36,6 +37,7 @@ class InterviewRequestControllerClass {
       .status(200)
       .message("Request sent  Successfulley")
       .send();
+    await SendNotificaiton(to,"Incoming Interview Request","You got a interview request","/requests")
   };
   unsent = async (req: Request, res: Response) => {
     const { to } = req.body;
@@ -159,6 +161,7 @@ class InterviewRequestControllerClass {
         status:"rejected"
       }
     });
+
     ResponseWrapper(res)
       .status(200)
       .message("Interview Request Rejected Successfully")

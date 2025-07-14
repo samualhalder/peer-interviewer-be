@@ -29,6 +29,7 @@ model User {
     requestRecived   InterviewRequests[] @relation("userRecived")
     chatsFrom        Chats[]             @relation("chatsFrom")
     chatsTo          Chats[]             @relation("chatsTo")
+    notification     Notifications[]     @relation("notificationFor")
 }
 
 model Follower {
@@ -71,5 +72,11 @@ model Chats {
 
 model Notifications{
     id String @id @default(uuid())
-    
+    userId String
+    title String
+    content String
+    link String?
+    seen Boolean @default(false)
+    createdAt DateTime @default(now())
+    User User @relation("notificationFor",fields: [userId],references: [id])
 }

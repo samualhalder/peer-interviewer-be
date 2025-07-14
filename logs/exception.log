@@ -1312,3 +1312,297 @@
   ],
   timestamp: 'Jul-14-2025 11:36:08'
 }
+{
+  error: TypeError: Cannot read properties of null (reading 'userId')
+      at Socket.<anonymous> (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\src\startups\socket.startup.ts:17:31)
+      at Socket.emit (node:events:519:28)
+      at Socket.emit (node:domain:488:12)
+      at Socket.emitUntyped (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\typed-events.js:69:22)
+      at C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\socket.js:697:39
+      at processTicksAndRejections (node:internal/process/task_queues:77:11),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'userId')\n" +
+    "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:31)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  stack: "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:31)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  exception: true,
+  date: 'Tue Jul 15 2025 00:05:39 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24972,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 216678400,
+      heapTotal: 167157760,
+      heapUsed: 162860304,
+      external: 7656870,
+      arrayBuffers: 4676440
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 443071.234 },
+  trace: [
+    {
+      column: 31,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 519,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:domain',
+      function: 'Socket.emit',
+      line: 488,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js',
+      function: 'Socket.emitUntyped',
+      line: 69,
+      method: 'emitUntyped',
+      native: false
+    },
+    {
+      column: 39,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js',
+      function: null,
+      line: 697,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 77,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: 'Jul-15-2025 00:05:39'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'userId')
+      at Socket.<anonymous> (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\src\startups\socket.startup.ts:17:40)
+      at Socket.emit (node:events:519:28)
+      at Socket.emit (node:domain:488:12)
+      at Socket.emitUntyped (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\typed-events.js:69:22)
+      at C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\socket.js:697:39
+      at processTicksAndRejections (node:internal/process/task_queues:77:11),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'userId')\n" +
+    "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:40)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  stack: "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:40)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  exception: true,
+  date: 'Tue Jul 15 2025 00:06:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20752,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 257236992,
+      heapTotal: 205955072,
+      heapUsed: 171062824,
+      external: 7676078,
+      arrayBuffers: 4692956
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 443104.703 },
+  trace: [
+    {
+      column: 40,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 519,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:domain',
+      function: 'Socket.emit',
+      line: 488,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js',
+      function: 'Socket.emitUntyped',
+      line: 69,
+      method: 'emitUntyped',
+      native: false
+    },
+    {
+      column: 39,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js',
+      function: null,
+      line: 697,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 77,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: 'Jul-15-2025 00:06:12'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'userId')
+      at Socket.<anonymous> (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\src\startups\socket.startup.ts:17:40)
+      at Socket.emit (node:events:519:28)
+      at Socket.emit (node:domain:488:12)
+      at Socket.emitUntyped (C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\typed-events.js:69:22)
+      at C:\Users\SAMUAL HALDER\personal-projects\peer-interviewer-new\be-ts\node_modules\socket.io\dist\socket.js:697:39
+      at processTicksAndRejections (node:internal/process/task_queues:77:11),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'userId')\n" +
+    "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:40)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  stack: "TypeError: Cannot read properties of null (reading 'userId')\n" +
+    '    at Socket.<anonymous> (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts:17:40)\n' +
+    '    at Socket.emit (node:events:519:28)\n' +
+    '    at Socket.emit (node:domain:488:12)\n' +
+    '    at Socket.emitUntyped (C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n' +
+    '    at C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js:697:39\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:77:11)',
+  exception: true,
+  date: 'Tue Jul 15 2025 00:07:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19488,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.15.1',
+    argv: [
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\ts-node\\dist\\bin.js',
+      'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\server.ts'
+    ],
+    memoryUsage: {
+      rss: 251953152,
+      heapTotal: 202285056,
+      heapUsed: 178819680,
+      external: 7691256,
+      arrayBuffers: 4708134
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 443172.765 },
+  trace: [
+    {
+      column: 40,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\src\\startups\\socket.startup.ts',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Socket.emit',
+      line: 519,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:domain',
+      function: 'Socket.emit',
+      line: 488,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\typed-events.js',
+      function: 'Socket.emitUntyped',
+      line: 69,
+      method: 'emitUntyped',
+      native: false
+    },
+    {
+      column: 39,
+      file: 'C:\\Users\\SAMUAL HALDER\\personal-projects\\peer-interviewer-new\\be-ts\\node_modules\\socket.io\\dist\\socket.js',
+      function: null,
+      line: 697,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 77,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: 'Jul-15-2025 00:07:20'
+}

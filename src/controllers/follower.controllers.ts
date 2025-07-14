@@ -37,6 +37,7 @@ class FollowerControllersClass {
         },
       },
     });
+
   };
   unFollow = async (req: Request, res: Response) => {
     const { followed } = req.body;

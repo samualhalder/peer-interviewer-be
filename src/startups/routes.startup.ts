@@ -9,6 +9,7 @@ import cors from "cors";
 import UserRouter from "../routes/user.route";
 import FollowerRouter from "../routes/followers.route";
 import ChatRouter from "../routes/chat.routes";
+import NotificationRouter from "../routes/notification.routes";
 
 import InterviewRequestRouter from "../routes/interviewRequest.route";
 
@@ -22,6 +23,7 @@ export default (app: Application) => {
   app.use("/api/followers", FollowerRouter);
   app.use("/api/interview-requests", InterviewRequestRouter);
   app.use("/api/chats", ChatRouter);
+  app.use("/api/notifications",NotificationRouter );
   app.use(errorhandlerMiddleware);
   app.use("*", (req: Request, res: Response) => {
     res
