@@ -68,3 +68,8 @@ model Chats {
     fromUser  User     @relation("chatsFrom", fields: [from], references: [id])
     toUser    User     @relation("chatsTo", fields: [to], references: [id])
 }
+
+model Notifications{
+    id String @id @default(uuid())
+    
+}
