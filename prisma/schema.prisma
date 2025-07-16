@@ -30,6 +30,8 @@ model User {
     chatsFrom        Chats[]             @relation("chatsFrom")
     chatsTo          Chats[]             @relation("chatsTo")
     notification     Notifications[]     @relation("notificationFor")
+    ratingsGiven     Ratings[]           @relation("ratingGiven")
+    ratingsGot       Ratings[]           @relation("ratingGot")
 }
 
 model Follower {
@@ -56,6 +58,7 @@ model InterviewRequests {
     seen      Boolean  @default(false)
     fromuser  User     @relation("userSent", fields: [from], references: [id])
     touser    User     @relation("userRecived", fields: [to], references: [id])
+    rating    Ratings[]@relation("interview-rating")
 }
 
 model Chats {
@@ -79,4 +82,17 @@ model Notifications{
     seen Boolean @default(false)
     createdAt DateTime @default(now())
     User User @relation("notificationFor",fields: [userId],references: [id])
+}
+
+model Ratings{
+    id String @id @default(uuid())
+    userId String
+    interviewId String
+    interviewerId String
+    rating Int
+    review String
+    createdAt DateTime @default(now())
+    User User @relation("ratingGiven",fields: [userId],references: [id])
+    interviewer User @relation("ratingGot",fields: [interviewerId],references: [id])
+    interview InterviewRequests @relation("interview-rating",fields: [interviewId],references: [id])
 }

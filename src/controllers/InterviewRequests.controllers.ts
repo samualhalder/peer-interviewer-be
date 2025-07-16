@@ -137,7 +137,7 @@ class InterviewRequestControllerClass {
   };
   accpet = async (req: Request, res: Response) => {
     const id = req.params.id;
-    await prisma.interviewRequests.update({
+   const inter= await prisma.interviewRequests.update({
       where: {
         id: id,
       },
@@ -150,6 +150,7 @@ class InterviewRequestControllerClass {
       .status(200)
       .message("Interview Request Accepted Successfully")
       .send();
+     await SendNotificaiton(inter.from,"Interview Request Accepted","Your interview request is accepted",`/user/${inter.to}`)
   };
   reject = async (req: Request, res: Response) => {
     const id = req.params.id;
@@ -269,7 +270,7 @@ class InterviewRequestControllerClass {
     const upcommings = await prisma.interviewRequests.findMany({
       where: {
         from: id,
-        status: "pending",
+        status: 'accepted',
       },
     });
     ResponseWrapper(res)
@@ -306,7 +307,7 @@ class InterviewRequestControllerClass {
   };
   endMeeting = async (req: Request, res: Response) => {
     const { id } = req.params;
-    console.log("endind id", id);
+
 
     const bod = await prisma.interviewRequests.update({
       where: {
