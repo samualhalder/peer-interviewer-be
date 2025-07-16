@@ -13,7 +13,13 @@ class NotificationControllersClass{
                 createdAt:"desc"
             }
         })
-        ResponseWrapper(res).status(200).body(results).send()
+        const unSeens=await prisma.notifications.findMany({
+            where:{
+                userId:id,
+                seen:false
+            }
+        })
+        ResponseWrapper(res).status(200).body({notifications:results,count:unSeens.length}).send()
     }
     seen=async(req:Request,res:Response)=>{
         const id=req.params.id
@@ -25,6 +31,16 @@ class NotificationControllersClass{
             }
         })
         ResponseWrapper(res).status(200).send()
+    }
+    unseenNotifications=async(req:Request,res:Response)=>{
+        const results=await prisma.notifications.findMany({
+            where:{
+                userId:req.user?.id,
+                seen: false
+            }
+        })
+        const count=results.length
+        ResponseWrapper(res).status(200).body({count}).send()
     }
 }
 export const NotificationControllers= new NotificationControllersClass()
