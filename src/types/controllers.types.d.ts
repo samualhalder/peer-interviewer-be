@@ -9,5 +9,6 @@ export interface UserType {
   organization?: string;
   location?: string;
   isAccountDeleted?: boolean;
+  isPasswordSet: boolean;
   createdAt?: Date;
 }

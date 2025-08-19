@@ -23,6 +23,7 @@ model User {
     skills           String?
     noOfFollowers    Int                 @default(0)
     noOfFollowings   Int                 @default(0)
+    isPasswordSet    Boolean             @default(false)
     followers        Follower[]          @relation("UserFollowing")
     followed         Follower[]          @relation("UserFollowed")
     requestSent      InterviewRequests[] @relation("userSent")
@@ -50,15 +51,15 @@ enum Status {
 }
 
 model InterviewRequests {
-    id        String   @id @default(uuid())
+    id        String    @id @default(uuid())
     from      String
     to        String
-    createdAt DateTime @default(now())
-    status    Status   @default(pending)
-    seen      Boolean  @default(false)
-    fromuser  User     @relation("userSent", fields: [from], references: [id])
-    touser    User     @relation("userRecived", fields: [to], references: [id])
-    rating    Ratings[]@relation("interview-rating")
+    createdAt DateTime  @default(now())
+    status    Status    @default(pending)
+    seen      Boolean   @default(false)
+    fromuser  User      @relation("userSent", fields: [from], references: [id])
+    touser    User      @relation("userRecived", fields: [to], references: [id])
+    rating    Ratings[] @relation("interview-rating")
 }
 
 model Chats {
@@ -73,26 +74,26 @@ model Chats {
     toUser    User     @relation("chatsTo", fields: [to], references: [id])
 }
 
-model Notifications{
-    id String @id @default(uuid())
-    userId String
-    title String
-    content String
-    link String?
-    seen Boolean @default(false)
+model Notifications {
+    id        String   @id @default(uuid())
+    userId    String
+    title     String
+    content   String
+    link      String?
+    seen      Boolean  @default(false)
     createdAt DateTime @default(now())
-    User User @relation("notificationFor",fields: [userId],references: [id])
+    User      User     @relation("notificationFor", fields: [userId], references: [id])
 }
 
-model Ratings{
-    id String @id @default(uuid())
-    userId String
-    interviewId String
+model Ratings {
+    id            String            @id @default(uuid())
+    userId        String
+    interviewId   String
     interviewerId String
-    rating Int
-    review String
-    createdAt DateTime @default(now())
-    User User @relation("ratingGiven",fields: [userId],references: [id])
-    interviewer User @relation("ratingGot",fields: [interviewerId],references: [id])
-    interview InterviewRequests @relation("interview-rating",fields: [interviewId],references: [id])
+    rating        Int
+    review        String
+    createdAt     DateTime          @default(now())
+    User          User              @relation("ratingGiven", fields: [userId], references: [id])
+    interviewer   User              @relation("ratingGot", fields: [interviewerId], references: [id])
+    interview     InterviewRequests @relation("interview-rating", fields: [interviewId], references: [id])
 }

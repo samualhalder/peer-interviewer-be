@@ -176,19 +176,7 @@ class UserControllerClass {
       .send();
   };
   resetPassword = async (req: Request, res: Response) => {
-    const { currentPassword, newPassword, confirmPassword } = req.body;
-    const user = (await prisma.user.findUnique({
-      where: {
-        id: req.user?.id,
-      },
-    })) as UserType;
-    const isPasswordMatched = await bcrypt.compare(
-      currentPassword,
-      user?.password
-    );
-    if (!isPasswordMatched) {
-      throw new HttpError(400, "Incorrect current password");
-    }
+    const { newPassword, confirmPassword } = req.body;
     if (newPassword !== confirmPassword) {
       throw new HttpError(
         400,
@@ -254,8 +242,6 @@ class UserControllerClass {
     ResponseWrapper(res).status(200).body(data).send();
   };
   getUserById = async (req: Request, res: Response) => {
-    console.log("hit getuserbyid");
-
     const { id } = req.params;
     const user = await prisma.user.findUnique({
       where: {
@@ -263,6 +249,14 @@ class UserControllerClass {
       },
     });
     ResponseWrapper(res).status(200).body(user).send();
+  };
+  isPassowrdSet = async (req: Request, res: Response) => {
+    const user = await prisma.user.findUnique({
+      where: {
+        id: req.user?.id,
+      },
+    });
+    ResponseWrapper(res).status(200).body(user?.isPasswordSet).send();
   };
 }
 

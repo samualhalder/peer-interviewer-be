@@ -12,7 +12,8 @@ router
   .put("/update", Auth, UserControllers.update)
   .put("/reset-password", Auth, UserControllers.resetPassword)
   .get("/get-users", Auth, UserControllers.getUser)
-  .get("/get-user/:id", Auth, UserControllers.getUserById);
+  .get("/get-user/:id", UserControllers.getUserById)
+  .get("/is-password-set", Auth, UserControllers.isPassowrdSet);
 
 router.post("/oauth", UserControllers.OAuthFuntion);
 
