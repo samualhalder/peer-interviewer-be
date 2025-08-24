@@ -2,7 +2,7 @@ import { Server, Socket } from "socket.io";
 import loggerHelper from "../helpers/logger.helper";
 
 let io: Server | null = null;
-const userSocketId=new Map<string,string>()
+const userSocketId = new Map<string, string>();
 
 export const initializeSocket = async (server: any): Promise<void> => {
   io = new Server(server, {
@@ -13,9 +13,9 @@ export const initializeSocket = async (server: any): Promise<void> => {
   });
 
   io.on("connection", (socket: Socket) => {
-    socket.on("connect-user",(data)=>{
-      if(data.userId)  userSocketId.set(data.userId,socket.id)
-    })
+    socket.on("connect-user", (data) => {
+      if (data.userId) userSocketId.set(data.userId, socket.id);
+    });
     socket.on("join-room", (data) => {
       socket.join(data.chatId);
       console.log("joined-room", socket.id, data.chatId);
@@ -27,6 +27,8 @@ export const initializeSocket = async (server: any): Promise<void> => {
       socket.broadcast.emit("interview-start-request", {
         room: data.room,
         offer: data.offer,
+        peerId: data.userId, // have to exchange the tag as while reciving it will change only
+        userId: data.peerId,
       });
     });
     socket.on("request-declined", (data) => {
@@ -90,9 +92,9 @@ export const initializeSocket = async (server: any): Promise<void> => {
   loggerHelper.info("⚡ Socket connected successfully");
 };
 
-export const getIo = (): any=> {
+export const getIo = (): any => {
   if (!io) {
     throw new Error("⚡ Socket.io not initialized");
   }
-  return {io,userSocketId};
+  return { io, userSocketId };
 };
