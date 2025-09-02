@@ -24,6 +24,8 @@ export const initializeSocket = async (server: any): Promise<void> => {
       io?.to(data.chatId).emit(`${data.chatId}`, data);
     });
     socket.on("start-interview", (data) => {
+      console.log("strt int", data, userSocketId);
+
       socket.broadcast.emit("interview-start-request", {
         room: data.room,
         offer: data.offer,
@@ -83,6 +85,9 @@ export const initializeSocket = async (server: any): Promise<void> => {
       console.log("ending meeting", data);
 
       socket.broadcast.emit(`end-meeting-${data}`);
+    });
+    socket.on("stoping-screen-sharing", (data) => {
+      socket.broadcast.emit(`end-screen-sharing-${data.roomId}`);
     });
 
     socket.on("disconnect", (reason: string) => {
