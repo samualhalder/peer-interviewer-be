@@ -7,7 +7,7 @@ const userSocketId = new Map<string, string>();
 export const initializeSocket = async (server: any): Promise<void> => {
   io = new Server(server, {
     cors: {
-      origin: "*",
+      origin: [process.env.CLIENT_URL as string],
       methods: ["GET", "POST"],
     },
   });
