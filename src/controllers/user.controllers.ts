@@ -21,14 +21,19 @@ class UserControllerClass {
       throw new HttpError(400, "User already exists");
     }
     const hashedPassword = await bcrypt.hash(password, 10);
-    await prisma.user.create({
+    const newUser = await prisma.user.create({
       data: {
         email: email,
         password: hashedPassword,
         name: name,
       },
     });
-    ResponseWrapper(res).status(200).message("Signup Successfull").send();
+    const token = generateAccessToken(newUser.id, newUser.email, newUser.name);
+    ResponseWrapper(res)
+      .status(200)
+      .body(token)
+      .message("Signup Successfull")
+      .send();
   };
 
   signIn = async (req: Request, res: Response) => {

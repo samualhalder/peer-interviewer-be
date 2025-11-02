@@ -7,7 +7,7 @@ const userSocketId = new Map<string, string>();
 export const initializeSocket = async (server: any): Promise<void> => {
   io = new Server(server, {
     cors: {
-      origin: [process.env.CLIENT_URL as string],
+      //   origin: [process.env.CLIENT_URL as string],
       methods: ["GET", "POST"],
     },
   });
@@ -24,8 +24,6 @@ export const initializeSocket = async (server: any): Promise<void> => {
       io?.to(data.chatId).emit(`${data.chatId}`, data);
     });
     socket.on("start-interview", (data) => {
-      console.log("strt int", data, userSocketId);
-
       socket.broadcast.emit("interview-start-request", {
         room: data.room,
         offer: data.offer,
