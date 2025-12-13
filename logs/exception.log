@@ -1606,3 +1606,2631 @@
   ],
   timestamp: 'Jul-15-2025 00:07:20'
 }
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306503680,
+      heapTotal: 209616896,
+      heapUsed: 181321168,
+      external: 7969768,
+      arrayBuffers: 4895737
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.55 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js',
+      function: 'Console._write',
+      line: 82,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'Console.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306634752,
+      heapTotal: 209616896,
+      heapUsed: 181708296,
+      external: 7982578,
+      arrayBuffers: 4908507
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.56 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306634752,
+      heapTotal: 209616896,
+      heapUsed: 181977304,
+      external: 7995548,
+      arrayBuffers: 4921477
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.56 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306634752,
+      heapTotal: 209616896,
+      heapUsed: 182200328,
+      external: 8008518,
+      arrayBuffers: 4934447
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.56 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306634752,
+      heapTotal: 209616896,
+      heapUsed: 182426832,
+      external: 8021488,
+      arrayBuffers: 4947417
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.57 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Wed Dec 10 2025 00:45:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 81744,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306765824,
+      heapTotal: 209879040,
+      heapUsed: 182664696,
+      external: 8034458,
+      arrayBuffers: 4960387
+    }
+  },
+  os: { loadavg: [ 0.63, 0.72, 0.88 ], uptime: 17902.57 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-10-2025 00:45:32'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305627136,
+      heapTotal: 209354752,
+      heapUsed: 180988624,
+      external: 7969672,
+      arrayBuffers: 4895641
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.59 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js',
+      function: 'Console._write',
+      line: 82,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'Console.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305758208,
+      heapTotal: 209354752,
+      heapUsed: 181375048,
+      external: 7982484,
+      arrayBuffers: 4908413
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.59 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305889280,
+      heapTotal: 209616896,
+      heapUsed: 181643872,
+      external: 7995456,
+      arrayBuffers: 4921385
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.59 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305889280,
+      heapTotal: 209616896,
+      heapUsed: 181865880,
+      external: 8008428,
+      arrayBuffers: 4934357
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.6 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305889280,
+      heapTotal: 209616896,
+      heapUsed: 182092944,
+      external: 8021398,
+      arrayBuffers: 4947327
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.6 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Fri Dec 12 2025 01:40:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 111336,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 305889280,
+      heapTotal: 209616896,
+      heapUsed: 182330784,
+      external: 8034368,
+      arrayBuffers: 4960297
+    }
+  },
+  os: { loadavg: [ 0.47, 0.92, 0.72 ], uptime: 44049.6 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-12-2025 01:40:26'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at Console._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js:82:19)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at Console.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306794496,
+      heapTotal: 209092608,
+      heapUsed: 182664488,
+      external: 7969616,
+      arrayBuffers: 4895585
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.2 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston-transport/modern.js',
+      function: 'Console._write',
+      line: 82,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'Console.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306925568,
+      heapTotal: 209354752,
+      heapUsed: 183050904,
+      external: 7982424,
+      arrayBuffers: 4908353
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.2 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306925568,
+      heapTotal: 209354752,
+      heapUsed: 183319800,
+      external: 7995392,
+      arrayBuffers: 4921321
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.21 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306925568,
+      heapTotal: 209354752,
+      heapUsed: 183541808,
+      external: 8008362,
+      arrayBuffers: 4934291
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.21 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 306925568,
+      heapTotal: 209354752,
+      heapUsed: 183770176,
+      external: 8021332,
+      arrayBuffers: 4947261
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.21 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}
+{
+  error: Error: EIO: i/o error, write
+      at writeSync (node:fs:923:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)
+      at writeOrBuffer (node:internal/streams/writable:572:12)
+      at _write (node:internal/streams/writable:501:10)
+      at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)
+      at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)
+      at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)
+      at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+      at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+      at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11) {
+    errno: -5,
+    syscall: 'write',
+    code: 'EIO'
+  },
+  level: 'error',
+  message: 'uncaughtException: EIO: i/o error, write\n' +
+    'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  stack: 'Error: EIO: i/o error, write\n' +
+    '    at writeSync (node:fs:923:3)\n' +
+    '    at SyncWriteStream._write (node:internal/fs/sync_write_stream:27:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:572:12)\n' +
+    '    at _write (node:internal/streams/writable:501:10)\n' +
+    '    at SyncWriteStream.Writable.write (node:internal/streams/writable:510:10)\n' +
+    '    at Console.log (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js:87:23)\n' +
+    '    at ExceptionStream._write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js:48:29)\n' +
+    '    at doWrite (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n' +
+    '    at writeOrBuffer (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n' +
+    '    at ExceptionStream.Writable.write (/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js:302:11)',
+  exception: true,
+  date: 'Sat Dec 13 2025 01:50:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 120832,
+    uid: 1000,
+    gid: 1000,
+    cwd: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be',
+    execPath: '/usr/bin/node-22',
+    version: 'v22.20.0',
+    argv: [
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/.bin/ts-node',
+      '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 307056640,
+      heapTotal: 209354752,
+      heapUsed: 184008000,
+      external: 8034302,
+      arrayBuffers: 4960231
+    }
+  },
+  os: { loadavg: [ 0.7, 1.03, 1.02 ], uptime: 43166.21 },
+  trace: [
+    {
+      column: 3,
+      file: 'node:fs',
+      function: 'writeSync',
+      line: 923,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/fs/sync_write_stream',
+      function: 'SyncWriteStream._write',
+      line: 27,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 572,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 501,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'SyncWriteStream.Writable.write',
+      line: 510,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/transports/console.js',
+      function: 'Console.log',
+      line: 87,
+      method: 'log',
+      native: false
+    },
+    {
+      column: 29,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/winston/lib/winston/exception-stream.js',
+      function: 'ExceptionStream._write',
+      line: 48,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 139,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'doWrite',
+      line: 390,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'writeOrBuffer',
+      line: 381,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: '/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/node_modules/readable-stream/lib/_stream_writable.js',
+      function: 'ExceptionStream.Writable.write',
+      line: 302,
+      method: 'write',
+      native: false
+    }
+  ],
+  timestamp: 'Dec-13-2025 01:50:00'
+}

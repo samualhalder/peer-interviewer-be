@@ -37,7 +37,12 @@ class InterviewRequestControllerClass {
       .status(200)
       .message("Request sent  Successfulley")
       .send();
-    await SendNotificaiton(to,"Incoming Interview Request","You got a interview request","/requests")
+    await SendNotificaiton(
+      to,
+      "Incoming Interview Request",
+      "You got a interview request",
+      "/requests"
+    );
   };
   unsent = async (req: Request, res: Response) => {
     const { to } = req.body;
@@ -137,7 +142,7 @@ class InterviewRequestControllerClass {
   };
   accpet = async (req: Request, res: Response) => {
     const id = req.params.id;
-   const inter= await prisma.interviewRequests.update({
+    const inter = await prisma.interviewRequests.update({
       where: {
         id: id,
       },
@@ -150,7 +155,12 @@ class InterviewRequestControllerClass {
       .status(200)
       .message("Interview Request Accepted Successfully")
       .send();
-     await SendNotificaiton(inter.from,"Interview Request Accepted","Your interview request is accepted",`/user/${inter.to}`)
+    await SendNotificaiton(
+      inter.from,
+      "Interview Request Accepted",
+      "Your interview request is accepted",
+      `/user/${inter.to}`
+    );
   };
   reject = async (req: Request, res: Response) => {
     const id = req.params.id;
@@ -158,9 +168,9 @@ class InterviewRequestControllerClass {
       where: {
         id: id,
       },
-      data:{
-        status:"rejected"
-      }
+      data: {
+        status: "rejected",
+      },
     });
 
     ResponseWrapper(res)
@@ -270,7 +280,7 @@ class InterviewRequestControllerClass {
     const upcommings = await prisma.interviewRequests.findMany({
       where: {
         from: id,
-        status: 'accepted',
+        status: "accepted",
       },
     });
     ResponseWrapper(res)
@@ -307,7 +317,6 @@ class InterviewRequestControllerClass {
   };
   endMeeting = async (req: Request, res: Response) => {
     const { id } = req.params;
-
 
     const bod = await prisma.interviewRequests.update({
       where: {
