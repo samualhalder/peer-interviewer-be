@@ -12,7 +12,8 @@ import ChatRouter from "../routes/chat.routes";
 import NotificationRouter from "../routes/notification.routes";
 
 import InterviewRequestRouter from "../routes/interviewRequest.route";
-import RatingRouter from '../routes/ratings.routes'
+import RatingRouter from "../routes/ratings.routes";
+import UploadRouter from "../routes/upload.routes";
 
 import errorhandlerMiddleware from "../middlewares/errorhandler.middleware";
 import loggerHelper from "../helpers/logger.helper";
@@ -24,8 +25,9 @@ export default (app: Application) => {
   app.use("/api/followers", FollowerRouter);
   app.use("/api/interview-requests", InterviewRequestRouter);
   app.use("/api/chats", ChatRouter);
-  app.use("/api/notifications",NotificationRouter );
+  app.use("/api/notifications", NotificationRouter);
   app.use("/api/ratings", RatingRouter);
+  app.use("/api/upload", UploadRouter);
   app.use(errorhandlerMiddleware);
   app.use("*", (req: Request, res: Response) => {
     res

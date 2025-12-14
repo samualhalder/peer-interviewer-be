@@ -8,6 +8,9 @@ import loggerHelper from "../helpers/logger.helper";
 
 const { JWT_SECRET } = process.env;
 
+
+
+
 const Auth = async (req: Request, res: Response, next: NextFunction) => {
   const authHeader = req.headers["authorization"];
 

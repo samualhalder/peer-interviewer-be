@@ -6530,3 +6530,44 @@
 2025-12-12 23:42:06:426 [31merror[39m: [31mWrong credentials[39m
 2025-12-12 23:45:11:4511 [31merror[39m: [31mjwt must be provided[39m
 2025-12-12 23:45:52:4552 [31merror[39m: [31mjwt must be provided[39m
+2025-12-14 23:26:25:2625 [31merror[39m: [31mjwt expired[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mjwt expired[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:26:2626 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mjwt expired[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:32:2632 [31merror[39m: [31mUnauthorized[39m
+2025-12-14 23:26:33:2633 [31merror[39m: [31mjwt expired[39m
+2025-12-14 23:27:01:271 [31merror[39m: [31mjwt must be provided[39m
+2025-12-14 23:28:53:2853 [31merror[39m: [31mMust supply cloud_name[39m

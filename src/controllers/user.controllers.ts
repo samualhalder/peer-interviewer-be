@@ -6,6 +6,7 @@ import bcrypt from "bcryptjs";
 import { generateAccessToken } from "../helpers/token.helper";
 import { UserType } from "../types";
 import jwt from "jsonwebtoken";
+import { log } from "winston";
 
 class UserControllerClass {
   signUp = async (req: Request, res: Response) => {
@@ -162,6 +163,7 @@ class UserControllerClass {
   update = async (req: Request, res: Response) => {
     const { name, location, organization, description, image, skills } =
       req.body;
+    console.log("hit", image);
     const updatedUser = await prisma.user.update({
       where: {
         id: req.user?.id,
