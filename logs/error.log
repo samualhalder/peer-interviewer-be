@@ -6571,3 +6571,5 @@
 2025-12-14 23:26:33:2633 [31merror[39m: [31mjwt expired[39m
 2025-12-14 23:27:01:271 [31merror[39m: [31mjwt must be provided[39m
 2025-12-14 23:28:53:2853 [31merror[39m: [31mMust supply cloud_name[39m
+2025-12-17 01:28:21:2821 [31merror[39m: [31mInvalid `from` field. The email address needs to follow the `email@example.com` or `Name <email@example.com>` format.[39m
+2025-12-17 01:29:38:2938 [31merror[39m: [31mThe gamil.com domain is not verified. Please, add and verify your domain on https://resend.com/domains[39m

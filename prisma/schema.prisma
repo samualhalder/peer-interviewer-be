@@ -24,6 +24,8 @@ model User {
     skills           String?
     noOfFollowers    Int                 @default(0)
     noOfFollowings   Int                 @default(0)
+    token            String?              
+    tokenExpiry      DateTime?
     isPasswordSet    Boolean             @default(false)
     followers        Follower[]          @relation("UserFollowing")
     followed         Follower[]          @relation("UserFollowed")

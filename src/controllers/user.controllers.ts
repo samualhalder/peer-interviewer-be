@@ -6,7 +6,8 @@ import bcrypt from "bcryptjs";
 import { generateAccessToken } from "../helpers/token.helper";
 import { UserType } from "../types";
 import jwt from "jsonwebtoken";
-import { log } from "winston";
+import { sendMail } from "../helpers/mail.helper";
+import crypto, { BinaryLike } from "crypto";
 
 class UserControllerClass {
   signUp = async (req: Request, res: Response) => {
@@ -264,6 +265,97 @@ class UserControllerClass {
       },
     });
     ResponseWrapper(res).status(200).body(user?.isPasswordSet).send();
+  };
+  forgotPassord = async (req: Request, res: Response) => {
+    const { email } = req.body;
+    const user = await prisma.user.findUnique({
+      where: {
+        email: email,
+      },
+    });
+    if (user) {
+      const token = crypto.randomBytes(32).toString("hex");
+      const hashedtoken = crypto
+        .createHash("sha256")
+        .update(token)
+        .digest("hex");
+      const expiryTime = new Date(Date.now() + 3 * 60 * 60 * 1000);
+      await prisma.user.update({
+        where: {
+          email: email,
+        },
+        data: {
+          token: hashedtoken,
+          tokenExpiry: expiryTime,
+        },
+      });
+      await sendMail(email, token);
+    }
+
+    ResponseWrapper(res)
+      .status(200)
+      .message("Email sent to the mail id")
+      .send();
+  };
+  validateToken = async (req: Request, res: Response) => {
+    const { token } = req.query;
+    const hashedToken = crypto
+      .createHash("sha256")
+      .update(token as BinaryLike)
+      .digest("hex");
+    const user = await prisma.user.findFirst({
+      where: {
+        token: hashedToken,
+      },
+    });
+    if (!user) {
+      throw new HttpError(404, "No Token found");
+      return;
+    }
+    if (
+      (user?.tokenExpiry || new Date(Date.now() + 1)) > new Date(Date.now())
+    ) {
+      throw new HttpError(400, "Token expired");
+      return;
+    }
+    ResponseWrapper(res).status(200).send();
+  };
+  resetForgotPassword = async (req: Request, res: Response) => {
+    const { token, password } = req.body;
+    const hashedToken = crypto
+      .createHash("sha256")
+      .update(token as BinaryLike)
+      .digest("hex");
+    const user = await prisma.user.findFirst({
+      where: {
+        token: hashedToken,
+      },
+    });
+    if (!user) {
+      throw new HttpError(404, "No Token found");
+      return;
+    }
+    if (
+      (user?.tokenExpiry || new Date(Date.now() + 1)) > new Date(Date.now())
+    ) {
+      throw new HttpError(400, "Token expired");
+      return;
+    }
+    const hashedPassword = await bcrypt.hash(password, 10);
+    await prisma.user.update({
+      where: {
+        id: user.id,
+      },
+      data: {
+        password: hashedPassword,
+        token: null,
+        tokenExpiry: null,
+      },
+    });
+    ResponseWrapper(res)
+      .status(200)
+      .message("Password reset successfully")
+      .send();
   };
 }
 

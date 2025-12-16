@@ -10,5 +10,7 @@ export interface UserType {
   location?: string;
   isAccountDeleted?: boolean;
   isPasswordSet: boolean;
+  token?: string;
+  tokenExpiry?: Date;
   createdAt?: Date;
 }
