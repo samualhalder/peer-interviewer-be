@@ -6573,3 +6573,310 @@
 2025-12-14 23:28:53:2853 [31merror[39m: [31mMust supply cloud_name[39m
 2025-12-17 01:28:21:2821 [31merror[39m: [31mInvalid `from` field. The email address needs to follow the `email@example.com` or `Name <email@example.com>` format.[39m
 2025-12-17 01:29:38:2938 [31merror[39m: [31mThe gamil.com domain is not verified. Please, add and verify your domain on https://resend.com/domains[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:45:1745 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:53:1753 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:17:54:1754 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation in[39m
+[31m/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/controllers/user.controllers.ts:72:40[39m
+
+[31m  69 [39m
+[31m  70 OAuthFuntion = async (req: Request, res: Response) => {[39m
+[31m  71   const { email, name, image } = req.body;[39m
+[31m→ 72   const findUser = await prisma.user.findUnique([39m
+[31mTimed out fetching a new connection from the connection pool. More info: http://pris.ly/d/connection-pool (Current connection pool timeout: 10, connection limit: 25)[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:18:15:1815 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:04:194 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation in[39m
+[31m/home/samualhalder/My_Work/webdev_projects/peer-interviewer-be/src/controllers/user.controllers.ts:72:40[39m
+
+[31m  69 [39m
+[31m  70 OAuthFuntion = async (req: Request, res: Response) => {[39m
+[31m  71   const { email, name, image } = req.body;[39m
+[31m→ 72   const findUser = await prisma.user.findUnique([39m
+[31mCan't reach database server at `ep-bold-star-a1kv8alf.ap-southeast-1.aws.neon.tech:443`[39m
+
+[31mPlease make sure your database server is running at `ep-bold-star-a1kv8alf.ap-southeast-1.aws.neon.tech:443`.[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mjwt expired[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 22:19:16:1916 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mjwt expired[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mUnauthorized[39m
+2025-12-21 23:55:59:5559 [31merror[39m: [31mjwt expired[39m
+2025-12-21 23:56:51:5651 [31merror[39m: [31mjwt must be provided[39m
+2025-12-21 23:59:13:5913 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:00:55:055 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:00:55:055 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:00:55:055 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:43:143 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:01:46:146 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:08:38 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:09:39 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:11:311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:12:312 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:12:312 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:12:312 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:12:312 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:12:312 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:03:36:336 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:10:810 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:08:10:810 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:10:810 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:08:11:811 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:10:13:1013 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:13:1213 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:12:15:1215 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:12:17:1217 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:23:28:2328 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:23:28:2328 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:24:25:2425 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:24:25:2425 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:24:25:2425 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:24:46:2446 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:24:46:2446 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:26:21:2621 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:21:2621 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:26:21:2621 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:29:2629 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:26:29:2629 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:29:2629 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:42:2642 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:42:2642 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:26:42:2642 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:46:2646 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:26:46:2646 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:26:46:2646 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:02:272 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:02:272 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:27:02:272 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:09:279 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:27:09:279 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:09:279 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:27:2727 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:27:2727 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:27:27:2727 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:44:2744 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:27:44:2744 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:27:44:2744 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:07:287 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:07:287 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:28:07:287 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:36:2836 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:36:2836 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:28:36:2836 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:54:2854 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:28:54:2854 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:28:54:2854 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:11:2911 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:11:2911 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:29:11:2911 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:26:2926 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:26:2926 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:29:26:2926 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:42:2942 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:42:2942 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:29:42:2942 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:50:2950 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:29:50:2950 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:29:51:2951 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:03:303 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:03:303 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:03:303 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:20:3020 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:20:3020 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:20:3020 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:30:3030 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:30:3030 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:30:3030 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:41:3041 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:41:3041 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:41:3041 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:48:3048 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:48:3048 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:48:3048 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:57:3057 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:30:57:3057 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:30:57:3057 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:31:27:3127 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:31:27:3127 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:31:27:3127 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:31:48:3148 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:31:48:3148 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:31:48:3148 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:32:08:328 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:32:09:329 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:32:09:329 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:32:13:3213 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:32:13:3213 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:32:13:3213 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:33:11:3311 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:33:11:3311 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:33:11:3311 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:38:24:3824 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:38:24:3824 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:38:24:3824 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:39:09:399 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:39:09:399 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:39:09:399 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:39:24:3924 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:39:24:3924 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:39:24:3924 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:43:31:4331 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:43:31:4331 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:43:31:4331 [31merror[39m: [31mjwt must be provided[39m
+2025-12-22 00:44:48:4448 [31merror[39m: [31mUnauthorized[39m
+2025-12-22 00:44:48:4448 [31merror[39m: [31mjwt malformed[39m
+2025-12-22 00:44:48:4448 [31merror[39m: [31mjwt malformed[39m
