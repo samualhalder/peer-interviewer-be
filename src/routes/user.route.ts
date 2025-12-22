@@ -9,7 +9,7 @@ router
   .post("/signin", UserControllers.signIn)
   .post("/valid-jwt", UserControllers.checkValidJWT)
   .post("/forgot-password", UserControllers.forgotPassord)
-  .post("/validate-token", UserControllers.validateToken)
+  .get("/validate-token", UserControllers.validateToken)
   .post("/reset-forgot-password", UserControllers.resetForgotPassword)
   .get("/get-user-by-token", Auth, UserControllers.getUserByToken)
   .put("/update", Auth, UserControllers.update)

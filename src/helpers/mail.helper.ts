@@ -9,7 +9,7 @@ export async function sendMail(mail: string, token: string) {
   const body = `
 <div>
   <p>Hello, please click the link below to reset your password.</p>
-
+  <p>the reset password session will be valid till the next 3 hrs from the mail generation</p>
   <a
     href="${clientUrl}/reset-password?token=${token}"
     style="

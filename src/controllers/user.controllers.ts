@@ -310,13 +310,11 @@ class UserControllerClass {
     });
     if (!user) {
       throw new HttpError(404, "No Token found");
-      return;
     }
     if (
-      (user?.tokenExpiry || new Date(Date.now() + 1)) > new Date(Date.now())
+      (user?.tokenExpiry || new Date(Date.now() - 1)) < new Date(Date.now())
     ) {
       throw new HttpError(400, "Token expired");
-      return;
     }
     ResponseWrapper(res).status(200).send();
   };
@@ -333,13 +331,11 @@ class UserControllerClass {
     });
     if (!user) {
       throw new HttpError(404, "No Token found");
-      return;
     }
     if (
-      (user?.tokenExpiry || new Date(Date.now() + 1)) > new Date(Date.now())
+      (user?.tokenExpiry || new Date(Date.now() - 1)) < new Date(Date.now())
     ) {
       throw new HttpError(400, "Token expired");
-      return;
     }
     const hashedPassword = await bcrypt.hash(password, 10);
     await prisma.user.update({
